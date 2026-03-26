@@ -3,6 +3,8 @@ import Link from "next/link";
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "All Products" },
+  { href: "/ai-builder", label: "AI Builder" },
+  { href: "/cart", label: "Cart" },
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact" },
 ];
@@ -18,23 +20,23 @@ const categories = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-900 via-gray-900 to-gray-950 text-gray-300">
+    <footer className="bg-gray-950 border-t border-gray-800/50 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* About AIBD.AI */}
           <div className="animate-fade-in-up">
             <div className="flex items-center space-x-1 mb-4">
               <span className="text-2xl font-bold text-white">AIBD</span>
-              <span className="text-2xl font-bold text-emerald-400">.AI</span>
+              <span className="text-2xl font-bold text-cyan-400">.AI</span>
             </div>
             <p className="text-gray-400 mb-4 leading-relaxed">
               Bangladesh&apos;s premier smart home solutions aggregator. We bring
               together the best products from multiple trusted sources to
               transform your home.
             </p>
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600/20 to-emerald-600/20 border border-blue-500/30 rounded-full px-4 py-1.5">
+            <div className="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-4 py-1.5">
               <svg
-                className="w-4 h-4 text-emerald-400"
+                className="w-4 h-4 text-cyan-400"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -46,7 +48,7 @@ export default function Footer() {
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span className="text-sm font-medium text-emerald-400">
+              <span className="text-sm font-medium text-cyan-400">
                 Powered by AI
               </span>
             </div>
@@ -57,7 +59,7 @@ export default function Footer() {
                   <a
                     key={social}
                     href="#"
-                    className="w-9 h-9 rounded-full bg-white/5 hover:bg-blue-600 flex items-center justify-center transition-all duration-300 hover:scale-110"
+                    className="w-9 h-9 rounded-full bg-gray-800 hover:bg-cyan-500 flex items-center justify-center transition-all duration-300 hover:scale-110"
                     aria-label={social}
                   >
                     <svg
@@ -77,16 +79,16 @@ export default function Footer() {
           <div className="animate-fade-in-up delay-100">
             <h3 className="text-white text-lg font-semibold mb-5 relative">
               Quick Links
-              <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-emerald-400 rounded-full" />
+              <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-cyan-400 rounded-full" />
             </h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-white hover:translate-x-1 transition-all duration-200 inline-flex items-center space-x-2"
+                    className="text-gray-400 hover:text-cyan-300 hover:translate-x-1 transition-all duration-200 inline-flex items-center space-x-2"
                   >
-                    <span className="text-emerald-400/60 text-xs">&#9654;</span>
+                    <span className="text-cyan-500/60 text-xs">&#9654;</span>
                     <span>{link.label}</span>
                   </Link>
                 </li>
@@ -98,16 +100,16 @@ export default function Footer() {
           <div className="animate-fade-in-up delay-200">
             <h3 className="text-white text-lg font-semibold mb-5 relative">
               Categories
-              <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-emerald-400 rounded-full" />
+              <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-cyan-400 rounded-full" />
             </h3>
             <ul className="space-y-3">
               {categories.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-white hover:translate-x-1 transition-all duration-200 inline-flex items-center space-x-2"
+                    className="text-gray-400 hover:text-cyan-300 hover:translate-x-1 transition-all duration-200 inline-flex items-center space-x-2"
                   >
-                    <span className="text-emerald-400/60 text-xs">&#9654;</span>
+                    <span className="text-cyan-500/60 text-xs">&#9654;</span>
                     <span>{link.label}</span>
                   </Link>
                 </li>
@@ -119,13 +121,13 @@ export default function Footer() {
           <div className="animate-fade-in-up delay-300">
             <h3 className="text-white text-lg font-semibold mb-5 relative">
               Contact Info
-              <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-emerald-400 rounded-full" />
+              <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-cyan-400 rounded-full" />
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
-                <div className="w-9 h-9 rounded-lg bg-blue-600/20 flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-9 h-9 rounded-lg bg-cyan-500/10 flex items-center justify-center shrink-0 mt-0.5">
                   <svg
-                    className="w-4 h-4 text-blue-400"
+                    className="w-4 h-4 text-cyan-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -142,16 +144,16 @@ export default function Footer() {
                   <p className="text-sm text-gray-500">Phone</p>
                   <a
                     href="tel:09613824682"
-                    className="text-white hover:text-emerald-400 transition-colors"
+                    className="text-white hover:text-cyan-400 transition-colors"
                   >
                     09613-824682
                   </a>
                 </div>
               </li>
               <li className="flex items-start space-x-3">
-                <div className="w-9 h-9 rounded-lg bg-blue-600/20 flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-9 h-9 rounded-lg bg-cyan-500/10 flex items-center justify-center shrink-0 mt-0.5">
                   <svg
-                    className="w-4 h-4 text-blue-400"
+                    className="w-4 h-4 text-cyan-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -168,16 +170,16 @@ export default function Footer() {
                   <p className="text-sm text-gray-500">Email</p>
                   <a
                     href="mailto:info@aibd.ai"
-                    className="text-white hover:text-emerald-400 transition-colors"
+                    className="text-white hover:text-cyan-400 transition-colors"
                   >
                     info@aibd.ai
                   </a>
                 </div>
               </li>
               <li className="flex items-start space-x-3">
-                <div className="w-9 h-9 rounded-lg bg-blue-600/20 flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-9 h-9 rounded-lg bg-cyan-500/10 flex items-center justify-center shrink-0 mt-0.5">
                   <svg
-                    className="w-4 h-4 text-blue-400"
+                    className="w-4 h-4 text-cyan-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

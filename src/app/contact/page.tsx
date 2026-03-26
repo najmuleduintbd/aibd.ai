@@ -18,18 +18,18 @@ export default function ContactPage() {
   }
 
   return (
-    <section className="bg-gray-50 min-h-screen">
+    <section className="bg-gray-950 min-h-screen">
       {/* Page Header */}
-      <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 text-white py-16 relative overflow-hidden">
+      <div className="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white py-16 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-10 right-20 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl" />
+          <div className="absolute top-10 right-20 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-10 w-48 h-48 bg-violet-500/10 rounded-full blur-3xl" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-3 animate-fade-in-up">
             Contact Us
           </h1>
-          <p className="text-blue-200 text-lg max-w-xl mx-auto animate-fade-in-up delay-100" style={{ opacity: 0 }}>
+          <p className="text-gray-400 text-lg max-w-xl mx-auto animate-fade-in-up delay-100" style={{ opacity: 0 }}>
             Get in touch with our team for any inquiries, product questions, or
             smart home consultation.
           </p>
@@ -40,16 +40,16 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Contact Form */}
           <div className="lg:col-span-2 animate-slide-in-left">
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            <div className="bg-gray-900 rounded-2xl shadow-lg shadow-black/20 p-8 border border-gray-800">
+              <h2 className="text-2xl font-bold text-white mb-6">
                 Send Us a Message
               </h2>
 
               {submitted ? (
                 <div className="text-center py-16 animate-scale-in">
-                  <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <div className="w-20 h-20 bg-cyan-500/10 rounded-full flex items-center justify-center mx-auto mb-6 border border-cyan-500/20">
                     <svg
-                      className="w-10 h-10 text-emerald-500"
+                      className="w-10 h-10 text-cyan-400"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -62,10 +62,10 @@ export default function ContactPage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="text-2xl font-bold text-white mb-2">
                     Message Sent!
                   </h3>
-                  <p className="text-gray-500 mb-8 max-w-md mx-auto">
+                  <p className="text-gray-400 mb-8 max-w-md mx-auto">
                     Thank you for contacting us. Our team will review your
                     message and get back to you within 24 hours.
                   </p>
@@ -79,7 +79,7 @@ export default function ContactPage() {
                         message: "",
                       });
                     }}
-                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
+                    className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 font-semibold transition-colors"
                   >
                     <svg
                       className="w-4 h-4"
@@ -128,13 +128,13 @@ export default function ContactPage() {
                         className={`absolute left-4 transition-all duration-200 pointer-events-none ${
                           focusedField === field.id ||
                           formData[field.id as keyof typeof formData]
-                            ? "-top-2.5 text-xs font-semibold text-blue-600 bg-white px-1"
-                            : "top-3.5 text-sm text-gray-400"
+                            ? "-top-2.5 text-xs font-semibold text-cyan-400 bg-gray-900 px-1"
+                            : "top-3.5 text-sm text-gray-500"
                         }`}
                       >
                         {field.label}
                         {field.required && (
-                          <span className="text-red-400 ml-0.5">*</span>
+                          <span className="text-rose-400 ml-0.5">*</span>
                         )}
                       </label>
                       <input
@@ -152,7 +152,7 @@ export default function ContactPage() {
                         }
                         onFocus={() => setFocusedField(field.id)}
                         onBlur={() => setFocusedField(null)}
-                        className="w-full px-4 py-3.5 border-2 border-gray-200 rounded-xl focus:ring-0 focus:border-blue-500 outline-none transition-all duration-200"
+                        className="w-full px-4 py-3.5 bg-gray-800 border-2 border-gray-700 text-white rounded-xl focus:ring-0 focus:border-cyan-500 outline-none transition-all duration-200"
                       />
                     </div>
                   ))}
@@ -162,11 +162,11 @@ export default function ContactPage() {
                       htmlFor="message"
                       className={`absolute left-4 transition-all duration-200 pointer-events-none ${
                         focusedField === "message" || formData.message
-                          ? "-top-2.5 text-xs font-semibold text-blue-600 bg-white px-1"
-                          : "top-3.5 text-sm text-gray-400"
+                          ? "-top-2.5 text-xs font-semibold text-cyan-400 bg-gray-900 px-1"
+                          : "top-3.5 text-sm text-gray-500"
                       }`}
                     >
-                      Message<span className="text-red-400 ml-0.5">*</span>
+                      Message<span className="text-rose-400 ml-0.5">*</span>
                     </label>
                     <textarea
                       id="message"
@@ -178,13 +178,13 @@ export default function ContactPage() {
                       }
                       onFocus={() => setFocusedField("message")}
                       onBlur={() => setFocusedField(null)}
-                      className="w-full px-4 py-3.5 border-2 border-gray-200 rounded-xl focus:ring-0 focus:border-blue-500 outline-none transition-all duration-200 resize-none"
+                      className="w-full px-4 py-3.5 bg-gray-800 border-2 border-gray-700 text-white rounded-xl focus:ring-0 focus:border-cyan-500 outline-none transition-all duration-200 resize-none"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 shadow-lg shadow-blue-600/20 hover:shadow-blue-600/40 active:scale-[0.98]"
+                    className="w-full bg-cyan-500 hover:bg-cyan-400 text-gray-950 font-semibold py-4 px-6 rounded-xl transition-all duration-300 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-400/40 active:scale-[0.98]"
                   >
                     Send Message
                   </button>
@@ -195,15 +195,15 @@ export default function ContactPage() {
 
           {/* Contact Details Sidebar */}
           <div className="space-y-6 animate-slide-in-right">
-            <div className="bg-white rounded-2xl shadow-lg p-7 border border-gray-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-5">
+            <div className="bg-gray-900 rounded-2xl shadow-lg shadow-black/20 p-7 border border-gray-800">
+              <h3 className="text-lg font-bold text-white mb-5">
                 Contact Information
               </h3>
               <ul className="space-y-5">
                 <li className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center shrink-0 border border-cyan-500/20">
                     <svg
-                      className="w-5 h-5 text-blue-600"
+                      className="w-5 h-5 text-cyan-400"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -223,14 +223,14 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Address</p>
-                    <p className="text-gray-500 text-sm">Dhaka, Bangladesh</p>
+                    <p className="font-semibold text-white">Address</p>
+                    <p className="text-gray-400 text-sm">Dhaka, Bangladesh</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center shrink-0 border border-cyan-500/20">
                     <svg
-                      className="w-5 h-5 text-blue-600"
+                      className="w-5 h-5 text-cyan-400"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -244,19 +244,19 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Phone</p>
+                    <p className="font-semibold text-white">Phone</p>
                     <a
                       href="tel:09613824682"
-                      className="text-blue-600 hover:text-blue-700 text-sm transition-colors"
+                      className="text-cyan-400 hover:text-cyan-300 text-sm transition-colors"
                     >
                       09613-824682
                     </a>
                   </div>
                 </li>
                 <li className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center shrink-0 border border-cyan-500/20">
                     <svg
-                      className="w-5 h-5 text-blue-600"
+                      className="w-5 h-5 text-cyan-400"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -270,19 +270,19 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Email</p>
+                    <p className="font-semibold text-white">Email</p>
                     <a
                       href="mailto:info@aibd.ai"
-                      className="text-blue-600 hover:text-blue-700 text-sm transition-colors"
+                      className="text-cyan-400 hover:text-cyan-300 text-sm transition-colors"
                     >
                       info@aibd.ai
                     </a>
                   </div>
                 </li>
                 <li className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center shrink-0 border border-cyan-500/20">
                     <svg
-                      className="w-5 h-5 text-blue-600"
+                      className="w-5 h-5 text-cyan-400"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -296,13 +296,13 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">
+                    <p className="font-semibold text-white">
                       Business Hours
                     </p>
-                    <p className="text-gray-500 text-sm">
+                    <p className="text-gray-400 text-sm">
                       Sat - Thu: 9:00 AM - 8:00 PM
                     </p>
-                    <p className="text-gray-500 text-sm">
+                    <p className="text-gray-400 text-sm">
                       Fri: 10:00 AM - 6:00 PM
                     </p>
                   </div>
@@ -311,10 +311,10 @@ export default function ContactPage() {
             </div>
 
             {/* Map Placeholder */}
-            <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl h-48 flex items-center justify-center border border-gray-200 overflow-hidden relative">
+            <div className="bg-gray-900 rounded-2xl h-48 flex items-center justify-center border border-gray-800 overflow-hidden relative">
               <div className="text-center">
                 <svg
-                  className="w-10 h-10 text-gray-400 mx-auto mb-2"
+                  className="w-10 h-10 text-gray-600 mx-auto mb-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -332,20 +332,20 @@ export default function ContactPage() {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <p className="text-gray-400 text-sm font-medium">
+                <p className="text-gray-500 text-sm font-medium">
                   Dhaka, Bangladesh
                 </p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl shadow-lg p-7 text-white text-center">
+            <div className="bg-gradient-to-br from-cyan-600 to-violet-600 rounded-2xl shadow-lg shadow-cyan-500/10 p-7 text-white text-center">
               <h3 className="text-lg font-bold mb-2">Need Urgent Help?</h3>
-              <p className="text-blue-200 mb-5 text-sm">
+              <p className="text-cyan-100 mb-5 text-sm">
                 Our support team is available 24/7
               </p>
               <a
                 href="tel:09613824682"
-                className="inline-flex items-center gap-2 bg-white text-blue-600 font-semibold px-6 py-3 rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg"
+                className="inline-flex items-center gap-2 bg-gray-950 text-cyan-400 font-semibold px-6 py-3 rounded-xl hover:bg-gray-900 transition-all duration-300 shadow-lg"
               >
                 <svg
                   className="w-5 h-5"

@@ -2,17 +2,17 @@ const sources = [
   {
     name: "SmartLife",
     description: "Premium smart home solutions provider in Bangladesh",
-    color: "from-blue-500 to-blue-600",
+    color: "from-cyan-500 to-blue-500",
   },
   {
     name: "SystechSmart",
     description: "Innovative smart technology solutions for modern homes",
-    color: "from-purple-500 to-purple-600",
+    color: "from-violet-500 to-purple-500",
   },
   {
     name: "InnovateIT",
     description: "Cutting-edge IT and smart home products",
-    color: "from-emerald-500 to-emerald-600",
+    color: "from-emerald-500 to-green-500",
   },
 ];
 
@@ -68,21 +68,21 @@ const stats = [
 
 export default function AboutPage() {
   return (
-    <section className="bg-gray-50 min-h-screen">
+    <section className="bg-gray-950 min-h-screen">
       {/* Hero Header */}
-      <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 text-white py-20 relative overflow-hidden">
+      <div className="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-10 left-20 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-float" />
-          <div className="absolute bottom-0 right-10 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl animate-float delay-200" />
+          <div className="absolute top-10 left-20 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl animate-float" />
+          <div className="absolute bottom-0 right-10 w-64 h-64 bg-violet-500/10 rounded-full blur-3xl animate-float delay-200" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 text-sm font-medium text-blue-100 mb-6 animate-fade-in">
+          <span className="inline-block bg-cyan-500/10 backdrop-blur-sm border border-cyan-500/20 rounded-full px-5 py-2 text-sm font-medium text-cyan-300 mb-6 animate-fade-in">
             Smart Home Solutions Aggregator
           </span>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-up">
             About AIBD.AI
           </h1>
-          <p className="text-blue-200 text-lg max-w-2xl mx-auto animate-fade-in-up delay-100" style={{ opacity: 0 }}>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto animate-fade-in-up delay-100" style={{ opacity: 0 }}>
             Bangladesh&apos;s premier smart home marketplace, bringing together
             the best products from multiple trusted sources.
           </p>
@@ -92,13 +92,13 @@ export default function AboutPage() {
       {/* Mission */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl mx-auto text-center animate-fade-in-up">
-          <span className="inline-block text-blue-600 font-semibold text-sm uppercase tracking-wider mb-2">
+          <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-2">
             Our Mission
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Making Smart Homes Accessible
           </h2>
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <p className="text-gray-400 text-lg leading-relaxed">
             At AIBD.AI, we believe that every home in Bangladesh deserves to be
             smart. We aggregate products from multiple trusted sources like
             SmartLife, SystechSmart, and InnovateIT to bring you the widest
@@ -110,16 +110,16 @@ export default function AboutPage() {
       </div>
 
       {/* We Aggregate From */}
-      <div className="bg-white py-20">
+      <div className="bg-gray-900/50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <span className="inline-block text-blue-600 font-semibold text-sm uppercase tracking-wider mb-2">
+            <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-2">
               Our Partners
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               We Aggregate From
             </h2>
-            <p className="text-gray-500 max-w-xl mx-auto">
+            <p className="text-gray-400 max-w-xl mx-auto">
               Products sourced from Bangladesh&apos;s most trusted smart home brands.
             </p>
           </div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
             {sources.map((source, index) => (
               <div
                 key={source.name}
-                className="group relative bg-white rounded-2xl p-8 border border-gray-100 hover:border-transparent hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 overflow-hidden animate-fade-in-up"
+                className="group relative bg-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/5 transition-all duration-300 hover:-translate-y-1 overflow-hidden animate-fade-in-up"
                 style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
               >
                 <div
@@ -139,10 +139,10 @@ export default function AboutPage() {
                 >
                   {source.name.charAt(0)}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-white mb-2">
                   {source.name}
                 </h3>
-                <p className="text-gray-500">{source.description}</p>
+                <p className="text-gray-400">{source.description}</p>
               </div>
             ))}
           </div>
@@ -151,7 +151,7 @@ export default function AboutPage() {
 
       {/* Stats */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 rounded-3xl p-10 md:p-14">
+        <div className="bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 rounded-3xl p-10 md:p-14">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {stats.map((stat, index) => (
               <div
@@ -159,10 +159,10 @@ export default function AboutPage() {
                 className="animate-scale-in"
                 style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
               >
-                <p className="text-4xl md:text-5xl font-bold text-white mb-1">
+                <p className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-violet-400 bg-clip-text text-transparent mb-1">
                   {stat.value}
                 </p>
-                <p className="text-blue-300 text-sm font-medium">
+                <p className="text-gray-400 text-sm font-medium">
                   {stat.label}
                 </p>
               </div>
@@ -172,30 +172,30 @@ export default function AboutPage() {
       </div>
 
       {/* Why Choose Us */}
-      <div className="bg-white py-20">
+      <div className="bg-gray-900/50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <span className="inline-block text-blue-600 font-semibold text-sm uppercase tracking-wider mb-2">
+            <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-2">
               Our Advantages
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Why Choose AIBD.AI
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {reasons.map((reason, index) => (
               <div
                 key={reason.title}
-                className="group bg-gradient-to-b from-gray-50 to-white rounded-2xl p-7 border border-gray-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in-up"
+                className="group bg-gray-900 rounded-2xl p-7 border border-gray-800 hover:border-cyan-500/30 hover:shadow-xl hover:shadow-cyan-500/5 transition-all duration-300 hover:-translate-y-1 animate-fade-in-up"
                 style={{ animationDelay: `${index * 100}ms`, opacity: 0 }}
               >
-                <div className="w-14 h-14 bg-blue-100 group-hover:bg-blue-600 rounded-xl flex items-center justify-center text-blue-600 group-hover:text-white transition-all duration-300 mb-5">
+                <div className="w-14 h-14 bg-cyan-500/10 group-hover:bg-cyan-500 rounded-xl flex items-center justify-center text-cyan-400 group-hover:text-gray-950 transition-all duration-300 mb-5">
                   {reason.icon}
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                <h3 className="text-lg font-bold text-white mb-2">
                   {reason.title}
                 </h3>
-                <p className="text-gray-500 text-sm leading-relaxed">
+                <p className="text-gray-400 text-sm leading-relaxed">
                   {reason.description}
                 </p>
               </div>
