@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AIBD.AI - Smart Home Solutions Bangladesh",
+  title: "AIBD.AI - Bangladesh's Smart Home Solutions Hub",
   description:
-    "Bangladesh's leading smart home solution provider. Transform your home with smart lighting, security, locks, and more.",
+    "Browse 100+ smart home products from top Bangladesh brands. Smart locks, lights, switches, security cameras, and more.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} antialiased`}>
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

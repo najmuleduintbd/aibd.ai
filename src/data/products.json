@@ -1,496 +1,2859 @@
 {
   "categories": [
-    { "name": "Smart Door Locks", "slug": "smart-door-locks", "icon": "lock", "productCount": 5 },
-    { "name": "Smart Devices & Controls", "slug": "smart-devices-controls", "icon": "hub", "productCount": 4 },
-    { "name": "Smart Switches", "slug": "smart-switches", "icon": "toggle", "productCount": 4 },
-    { "name": "Smart Sockets", "slug": "smart-sockets", "icon": "plug", "productCount": 5 },
-    { "name": "Smart Doorbells & Cameras", "slug": "smart-doorbells-cameras", "icon": "shield", "productCount": 3 },
-    { "name": "Smart Lighting", "slug": "smart-lighting", "icon": "lightbulb", "productCount": 5 },
-    { "name": "Smart Home Cleaning", "slug": "smart-home-cleaning", "icon": "cleaning", "productCount": 5 },
-    { "name": "Smart Home Appliances", "slug": "smart-home-appliances", "icon": "thermometer", "productCount": 4 },
-    { "name": "Voice Control & Bundles", "slug": "voice-control-bundles", "icon": "speaker", "productCount": 2 },
-    { "name": "Wall Components", "slug": "wall-components", "icon": "sensor", "productCount": 3 }
+    {
+      "name": "Smart Door Locks",
+      "slug": "smart-door-locks",
+      "icon": "lock",
+      "description": "Door locks with fingerprint, face recognition, app control",
+      "productCount": 23
+    },
+    {
+      "name": "Smart Lights & Fans",
+      "slug": "smart-lights-fans",
+      "icon": "lightbulb",
+      "description": "Smart bulbs, LED strips, smart fans, ceiling lights",
+      "productCount": 25
+    },
+    {
+      "name": "Smart Switches & Sockets",
+      "slug": "smart-switches-sockets",
+      "icon": "toggle",
+      "description": "WiFi switches, touch switches, smart sockets, wall sockets",
+      "productCount": 32
+    },
+    {
+      "name": "Smart Speaker & Hub",
+      "slug": "smart-speaker-hub",
+      "icon": "speaker",
+      "description": "Voice assistants, smart speakers, hubs",
+      "productCount": 1
+    },
+    {
+      "name": "Smart Security & Surveillance",
+      "slug": "smart-security-surveillance",
+      "icon": "shield",
+      "description": "Cameras, doorbells, video intercoms, alarms",
+      "productCount": 7
+    },
+    {
+      "name": "Smart Health & Wellness",
+      "slug": "smart-health-wellness",
+      "icon": "heart",
+      "description": "Health monitors, air purifiers, smart scales",
+      "productCount": 5
+    },
+    {
+      "name": "Smart Home Cleaning",
+      "slug": "smart-home-cleaning",
+      "icon": "cleaning",
+      "description": "Robot vacuums, steam mops, handheld vacuums",
+      "productCount": 6
+    },
+    {
+      "name": "Smart Home Appliances",
+      "slug": "smart-home-appliances",
+      "icon": "thermometer",
+      "description": "Heaters, warming trays, portable fans",
+      "productCount": 5
+    },
+    {
+      "name": "Smart Devices & Control Panels",
+      "slug": "smart-devices-panels",
+      "icon": "hub",
+      "description": "Touchscreen panels, Zigbee gateways, home controllers",
+      "productCount": 4
+    },
+    {
+      "name": "Smart Electronics & Gadgets",
+      "slug": "smart-electronics-gadgets",
+      "icon": "plug",
+      "description": "Speakers, smart mugs, keyboards, misc electronics",
+      "productCount": 4
+    },
+    {
+      "name": "Ergonomic Smart Furniture",
+      "slug": "ergonomic-smart-furniture",
+      "icon": "blinds",
+      "description": "Standing desks, smart chairs",
+      "productCount": 2
+    },
+    {
+      "name": "Wall Components & Accessories",
+      "slug": "wall-components-accessories",
+      "icon": "sensor",
+      "description": "Glass plate switches, wall outlets, cover plates, sockets",
+      "productCount": 10
+    }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Tango M11 - Smart Door Lock with 3D Face Recognition",
-      "slug": "tango-m11-3d-face-recognition",
+      "name": "OVALIN EDGE 3D Face Recognition Smart Door Lock",
+      "slug": "ovalin-edge-3d-face-recognition-smart-door-lock",
       "category": "Smart Door Locks",
       "categorySlug": "smart-door-locks",
-      "price": { "min": 25000, "max": 35000 },
-      "model": "Tango M11",
-      "image": "https://innovateit.com.bd/public/medies/Mar-2026/1772434808.69a53578de0f5.webp",
-      "description": "Advanced smart door lock featuring 3D face recognition technology for seamless and secure entry. Supports multiple unlock methods including fingerprint, password, card, and app control.",
-      "features": ["3D face recognition", "Fingerprint unlock", "Password access", "Card access", "App control", "Anti-peep password"]
+      "price": {
+        "min": 50000,
+        "max": 50000
+      },
+      "source": "SmartLife",
+      "image": "https://smartlife.com.bd/wp-content/uploads/2023/11/SmartLife-F1-Pro-Smart-Door-Lock-300x300.png",
+      "description": "Premium smart door lock featuring advanced 3D face recognition technology for seamless and secure entry. Designed for modern homes seeking the highest level of door security.",
+      "features": [
+        "3D face recognition with anti-spoofing technology",
+        "Multiple unlock methods including fingerprint and PIN",
+        "Mobile app remote control and monitoring",
+        "Built-in alarm for forced entry attempts",
+        "Durable construction with weather-resistant finish"
+      ],
+      "inStock": true
     },
     {
       "id": 2,
-      "name": "I404 - Smart Bedroom Door Lock",
-      "slug": "i404-smart-bedroom-door-lock",
+      "name": "SmartLife B1 Dual Smart Door Lock",
+      "slug": "smartlife-b1-dual-smart-door-lock",
       "category": "Smart Door Locks",
       "categorySlug": "smart-door-locks",
-      "price": { "min": 8999, "max": 18000 },
-      "model": "I404",
-      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759484572.68df9a9c5d888.webp",
-      "description": "Compact smart lock designed for bedroom doors with fingerprint and app control. Easy installation and reliable security for interior doors.",
-      "features": ["Fingerprint unlock", "App control", "Password access", "Card access", "Suitable for bedroom doors", "Compact design"]
+      "price": {
+        "min": 15999,
+        "max": 15999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Dual-functionality smart door lock offering both fingerprint and digital keypad access. Perfect for households wanting reliable keyless entry with backup options.",
+      "features": [
+        "Dual authentication for enhanced security",
+        "Fingerprint sensor with fast recognition",
+        "Digital keypad with temporary password support",
+        "Auto-lock function with adjustable timer",
+        "Low battery warning notification"
+      ],
+      "inStock": true
     },
     {
       "id": 3,
-      "name": "Regal K2Pro - Premium Fingerprint Lock",
-      "slug": "regal-k2pro-fingerprint-lock",
+      "name": "SmartLife B1 Smart Door Lock",
+      "slug": "smartlife-b1-smart-door-lock",
       "category": "Smart Door Locks",
       "categorySlug": "smart-door-locks",
-      "price": { "min": 34000, "max": 60000 },
-      "model": "Regal K2Pro",
-      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759484963.68df9c236ed13.webp",
-      "description": "Premium-grade fingerprint door lock with multiple unlock methods and robust build quality. Designed for main entrance doors requiring top-tier security.",
-      "features": ["Fingerprint recognition", "Multiple unlock methods", "Premium build quality", "Suitable for main doors", "Anti-tamper alarm", "Auto-lock function"]
+      "price": {
+        "min": 12499,
+        "max": 12499
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Affordable smart door lock with fingerprint and PIN code access. An excellent entry-level option for upgrading to keyless smart home security.",
+      "features": [
+        "Fingerprint unlock with high accuracy sensor",
+        "PIN code access with anti-peep feature",
+        "Mechanical key backup for emergencies",
+        "Easy DIY installation on standard doors",
+        "Long battery life up to 12 months"
+      ],
+      "inStock": true
     },
     {
       "id": 4,
-      "name": "Crown V26 - Smart Lock with 3D Face Recognition",
-      "slug": "crown-v26-3d-face-recognition",
+      "name": "SmartLife D1 Smart Door Lock with Face Recognition",
+      "slug": "smartlife-d1-smart-door-lock-with-face-recognition",
       "category": "Smart Door Locks",
       "categorySlug": "smart-door-locks",
-      "price": { "min": 22000, "max": 30000 },
-      "model": "Crown V26",
-      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759559636.68e0bfd4bfa40.webp",
-      "description": "Feature-rich smart door lock with 3D face recognition, fingerprint, password, and card access. Includes remote access capability for added convenience.",
-      "features": ["3D face recognition", "Fingerprint unlock", "Password access", "Card access", "Remote access", "Activity log"]
+      "price": {
+        "min": 17000,
+        "max": 17000
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Smart door lock equipped with facial recognition technology for hands-free entry. Combines convenience and security with multiple unlock methods.",
+      "features": [
+        "Face recognition for touchless entry",
+        "Fingerprint and password backup access",
+        "WiFi connectivity for remote management",
+        "Real-time unlock notifications via app",
+        "Anti-tamper alarm system"
+      ],
+      "inStock": true
     },
     {
       "id": 5,
-      "name": "SSCL - Fingerprint Drawer Lock",
-      "slug": "sscl-fingerprint-drawer-lock",
+      "name": "SmartLife F1 Pro Smart Door Lock 3D Face Recognition",
+      "slug": "smartlife-f1-pro-smart-door-lock-3d-face-recognition",
       "category": "Smart Door Locks",
       "categorySlug": "smart-door-locks",
-      "price": { "min": 1700, "max": 2750 },
-      "model": "SSCL",
-      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1761821182.690341fe8b621.png",
-      "description": "Compact fingerprint lock designed for drawers and cabinets. Provides biometric security for your valuables in a small form factor.",
-      "features": ["Fingerprint unlock", "Compact design", "Suitable for drawers and cabinets", "Easy installation", "Battery powered", "Multiple fingerprint storage"]
+      "price": {
+        "min": 22999,
+        "max": 22999
+      },
+      "source": "SmartLife",
+      "image": "https://smartlife.com.bd/wp-content/uploads/2023/11/SmartLife-F1-Pro-Smart-Door-Lock-300x300.png",
+      "description": "Professional-grade smart door lock with 3D face recognition for unmatched security. Works in all lighting conditions.",
+      "features": [
+        "3D structured light face recognition",
+        "Works in complete darkness",
+        "Stores up to 100 face profiles",
+        "App-based access management and logs",
+        "Automatic locking with proximity detection",
+        "Emergency power via USB-C"
+      ],
+      "inStock": true
     },
     {
       "id": 6,
-      "name": "8-inch Tuya Zigbee Gateway Panel",
-      "slug": "8-inch-tuya-zigbee-gateway-panel",
-      "category": "Smart Devices & Controls",
-      "categorySlug": "smart-devices-controls",
-      "price": { "min": 33000, "max": 33000 },
-      "model": "Tuya Zigbee 8\"",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1748360345.6835dc99472e2.png",
-      "description": "Large 8-inch touchscreen control panel with built-in Zigbee gateway. Wall-mounted central hub to control all your smart home devices from one place.",
-      "features": ["8-inch touchscreen", "Zigbee gateway built-in", "Controls all smart devices", "Wall-mounted", "Scene management", "Intercom support"]
+      "name": "SmartLife F2 Pro Smart Door Lock 3D Face Recognition",
+      "slug": "smartlife-f2-pro-smart-door-lock-3d-face-recognition",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 23999,
+        "max": 23999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Upgraded 3D face recognition smart lock with enhanced processing speed and improved sensor accuracy for premium smart home security.",
+      "features": [
+        "Enhanced 3D face recognition engine",
+        "Faster unlock speed under 1 second",
+        "Fingerprint, PIN, card, and key access",
+        "WiFi and Bluetooth dual connectivity",
+        "Comprehensive access log tracking",
+        "Child safety lock feature"
+      ],
+      "inStock": true
     },
     {
       "id": 7,
-      "name": "6-inch WiFi Wall Amplifier & Tuya Gateway",
-      "slug": "6-inch-wifi-wall-amplifier-tuya-gateway",
-      "category": "Smart Devices & Controls",
-      "categorySlug": "smart-devices-controls",
-      "price": { "min": 30000, "max": 30000 },
-      "model": "WiFi Wall Amp 6\"",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1748359911.6835dae709572.png",
-      "description": "Dual-function smart panel combining a 6-inch display with WiFi amplifier and Tuya gateway. Stream music and control your smart home from the wall.",
-      "features": ["6-inch display", "WiFi amplifier", "Tuya gateway", "Music streaming", "Bluetooth connectivity", "Wall-mounted design"]
+      "name": "SmartLife F3 Pro Smart Door Lock 3D Face Recognition",
+      "slug": "smartlife-f3-pro-smart-door-lock-3d-face-recognition",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 23999,
+        "max": 23999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Latest generation 3D face recognition smart lock with sleek modern design delivering top-tier biometric security.",
+      "features": [
+        "Next-gen 3D facial recognition sensor",
+        "Slim profile modern design",
+        "Voice assistant compatible",
+        "Temporary access codes for guests",
+        "Built-in doorbell function",
+        "Anti-pry and anti-drill protection"
+      ],
+      "inStock": true
     },
     {
       "id": 8,
-      "name": "Smart Home Control Panel 3.5\" LCD & Zigbee",
-      "slug": "smart-home-control-panel-3-5-lcd",
-      "category": "Smart Devices & Controls",
-      "categorySlug": "smart-devices-controls",
-      "price": { "min": 9900, "max": 11000 },
-      "model": "Zigbee Panel 3.5\"",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1748251713.6834344130b8e.webp",
-      "description": "Compact 3.5-inch LCD control panel with Zigbee protocol support. Affordable entry point to centralized smart home control with scene management.",
-      "features": ["3.5-inch LCD display", "Zigbee protocol", "Scene control", "Compact design", "Easy installation", "Affordable"]
+      "name": "SmartLife G2 Smart Glass Door Lock",
+      "slug": "smartlife-g2-smart-glass-door-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 19999,
+        "max": 19999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Specialized smart lock designed for glass doors supporting both framed and frameless installations with elegant aesthetics.",
+      "features": [
+        "Compatible with glass doors 10-12mm thick",
+        "Fingerprint and PIN code access",
+        "Remote unlock via smartphone app",
+        "Suitable for office and residential glass doors",
+        "Auto-lock and passage mode options"
+      ],
+      "inStock": true
     },
     {
       "id": 9,
-      "name": "10-inch Tuya Touch Screen Display",
-      "slug": "10-inch-tuya-touch-screen-display",
-      "category": "Smart Devices & Controls",
-      "categorySlug": "smart-devices-controls",
-      "price": { "min": 36000, "max": 36000 },
-      "model": "Tuya Touch 10\"",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756623094.68b3f0f66323d.webp",
-      "description": "Premium 10-inch touchscreen display for complete smart home control. Features Tuya compatibility, full home management, and built-in intercom functionality.",
-      "features": ["10-inch touchscreen", "Tuya compatible", "Full home control", "Intercom functionality", "Video monitoring", "Scene automation"]
+      "name": "SmartLife K1 Smart Door Lock",
+      "slug": "smartlife-k1-smart-door-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 15999,
+        "max": 15999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Versatile smart door lock with multiple access methods and robust build quality for everyday smart home security.",
+      "features": [
+        "Fingerprint, password, card, and key unlock",
+        "Anti-peep virtual password technology",
+        "Automatic lock after door closes",
+        "Low battery alert and emergency power",
+        "Durable zinc alloy construction"
+      ],
+      "inStock": true
     },
     {
       "id": 10,
-      "name": "Digital LCD Dimmer Switch",
-      "slug": "digital-lcd-dimmer-switch",
-      "category": "Smart Switches",
-      "categorySlug": "smart-switches",
-      "price": { "min": 7000, "max": 7000 },
-      "model": "LCD Dimmer",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1748671898.683a9d9a7b469.webp",
-      "description": "Touch-controlled dimmer switch with LCD display showing current brightness level. Modern design that adds elegance to any room.",
-      "features": ["LCD display", "Dimming control", "Touch interface", "Modern design", "LED compatible", "Smooth dimming"]
+      "name": "SmartLife L1 Smart Door Lock (2024)",
+      "slug": "smartlife-l1-smart-door-lock-2024",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 7999,
+        "max": 7999
+      },
+      "source": "SmartLife",
+      "image": "https://smartlife.com.bd/wp-content/uploads/2023/11/L1-Smart-Door-Lock-Thumb-300x300.jpg",
+      "description": "Budget-friendly smart door lock with essential features for secure keyless entry. Perfect starter lock for smart home beginners.",
+      "features": [
+        "Fingerprint and PIN code access",
+        "Compact and lightweight design",
+        "Easy installation on standard doors",
+        "Battery powered with long life",
+        "Mechanical key backup included"
+      ],
+      "inStock": true
     },
     {
       "id": 11,
-      "name": "MiFare Card Energy Saver Switch",
-      "slug": "mifare-card-energy-saver-switch",
-      "category": "Smart Switches",
-      "categorySlug": "smart-switches",
-      "price": { "min": 1800, "max": 1800 },
-      "model": "MiFare Energy Saver",
-      "image": "https://innovateit.com.bd/public/medies/Jun-2025/1749757229.684b2d2d36413.webp",
-      "description": "Hotel-grade energy saver switch activated by MiFare card. Automatically cuts power when the card is removed, saving energy in hospitality and residential settings.",
-      "features": ["MiFare card activated", "Energy saving", "Hotel-grade quality", "Auto power off", "Easy installation", "Durable construction"]
+      "name": "SmartLife Z1 Pro Smart Door Lock 3D Face Recognition",
+      "slug": "smartlife-z1-pro-smart-door-lock-3d-face-recognition",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 34999,
+        "max": 34999
+      },
+      "source": "SmartLife",
+      "image": "https://smartlife.com.bd/wp-content/uploads/2023/06/z1-300x300.png",
+      "description": "Flagship smart door lock with premium 3D face recognition and full smart home integration for discerning homeowners.",
+      "features": [
+        "Premium 3D face recognition with infrared sensor",
+        "Large touchscreen display interface",
+        "WiFi and Zigbee smart home integration",
+        "Real-time video monitoring capability",
+        "Supports up to 200 user profiles",
+        "Military-grade encryption for data security"
+      ],
+      "inStock": true
     },
     {
       "id": 12,
-      "name": "WiFi 4-Gang Touch Switch",
-      "slug": "wifi-4-gang-touch-switch",
-      "category": "Smart Switches",
-      "categorySlug": "smart-switches",
-      "price": { "min": 2300, "max": 2800 },
-      "model": "WiFi 4-Gang",
-      "image": "https://innovateit.com.bd/public/medies/Apr-2025/1745915895.68108ff7ed641.jpg",
-      "description": "WiFi-enabled 4-gang touch switch with tempered glass panel. Control four circuits independently via touch, app, or voice assistant.",
-      "features": ["4-gang control", "WiFi enabled", "Touch panel", "Voice assistant compatible", "Tempered glass", "App control"]
+      "name": "SmartLife X1 Pro Smart Door Lock With Camera",
+      "slug": "smartlife-x1-pro-smart-door-lock-with-camera",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 23499,
+        "max": 23499
+      },
+      "source": "SmartLife",
+      "image": "https://smartlife.com.bd/wp-content/uploads/2021/02/x1-300x300.png",
+      "description": "Smart door lock with built-in HD camera for visual verification before unlocking from anywhere via smartphone.",
+      "features": [
+        "Built-in HD camera with night vision",
+        "Real-time video feed on smartphone",
+        "3D face recognition and fingerprint unlock",
+        "Two-way audio communication",
+        "Motion detection alerts",
+        "Cloud and local storage options"
+      ],
+      "inStock": true
     },
     {
       "id": 13,
-      "name": "LCD Infrared Sensor Switch",
-      "slug": "lcd-infrared-sensor-switch",
-      "category": "Smart Switches",
-      "categorySlug": "smart-switches",
-      "price": { "min": 7500, "max": 7500 },
-      "model": "IR Sensor Switch",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756634043.68b41bbbdb2a1.webp",
-      "description": "Infrared motion detection switch with LCD display. Automatically turns lights on when motion is detected and off after a set period, maximizing energy efficiency.",
-      "features": ["Infrared motion detection", "LCD display", "Auto on/off", "Energy efficient", "Adjustable sensitivity", "Timer setting"]
+      "name": "3D Face Recognition Smart Door Lock with HD Camera",
+      "slug": "3d-face-recognition-smart-door-lock-with-hd-camera",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 21687,
+        "max": 21687
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Feature-rich smart door lock combining 3D face recognition with an HD camera for comprehensive doorway security.",
+      "features": [
+        "3D face recognition with liveness detection",
+        "HD camera for remote monitoring",
+        "Multiple unlock modes including fingerprint and card",
+        "WiFi enabled for app-based control",
+        "Tamper-proof alarm system"
+      ],
+      "inStock": true
     },
     {
       "id": 14,
-      "name": "WiFi Smart Universal Socket with USB",
-      "slug": "wifi-smart-universal-socket-usb",
-      "category": "Smart Sockets",
-      "categorySlug": "smart-sockets",
-      "price": { "min": 2900, "max": 2900 },
-      "model": "WiFi Universal Socket",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1747293082.6825939ad1e44.jpg",
-      "description": "WiFi-enabled universal socket with built-in USB charging port. Control any plugged-in appliance remotely via smartphone app.",
-      "features": ["WiFi enabled", "Universal socket", "USB charging port", "App control", "Timer function", "Energy monitoring"]
+      "name": "Smart WiFi Door Lock with 360 Degree HD Camera",
+      "slug": "smart-wifi-door-lock-with-360-degree-hd-camera",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 29900,
+        "max": 29900
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Advanced smart door lock featuring a 360-degree HD camera for panoramic doorway surveillance and complete entry control.",
+      "features": [
+        "360-degree HD camera with wide-angle lens",
+        "WiFi connectivity for remote access",
+        "Fingerprint, PIN, and card unlock",
+        "Night vision for 24/7 monitoring",
+        "Two-way intercom functionality"
+      ],
+      "inStock": false
     },
     {
       "id": 15,
-      "name": "5-Pin Universal Socket",
-      "slug": "5-pin-universal-socket",
-      "category": "Smart Sockets",
-      "categorySlug": "smart-sockets",
-      "price": { "min": 2000, "max": 3000 },
-      "model": "5-Pin Universal",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1748358044.6835d39ca34bb.jpg",
-      "description": "Versatile 5-pin universal socket supporting multiple plug types. Safety shutters protect against accidental contact.",
-      "features": ["5-pin universal design", "Multiple device support", "Safety shutters", "Premium finish", "Durable construction", "Easy installation"]
+      "name": "Tango M11 Smart Door Lock 3D Face Recognition",
+      "slug": "tango-m11-smart-door-lock-3d-face-recognition",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 25000,
+        "max": 35000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Mar-2026/1772434808.69a53578de0f5.webp",
+      "description": "High-end Tango M11 smart lock with 3D face recognition and elegant design for premium security.",
+      "features": [
+        "Advanced 3D face recognition technology",
+        "Premium build with brushed metal finish",
+        "Fingerprint, password, card, and app unlock",
+        "Automatic sliding lock mechanism",
+        "Activity log with push notifications",
+        "Compatible with Tuya smart home ecosystem"
+      ],
+      "inStock": true
     },
     {
       "id": 16,
-      "name": "Glass Panel 5-Pin Touch Socket with USB",
-      "slug": "glass-panel-5-pin-touch-socket-usb",
-      "category": "Smart Sockets",
-      "categorySlug": "smart-sockets",
-      "price": { "min": 2500, "max": 3500 },
-      "model": "Glass Touch Socket",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1748358402.6835d502c9711.jpg",
-      "description": "Elegant tempered glass panel socket with 5-pin configuration and USB ports. Touch-sensitive controls add a modern aesthetic to your walls.",
-      "features": ["Tempered glass panel", "5-pin socket", "USB ports", "Touch control", "Modern design", "Safety shutters"]
+      "name": "Tuya Smart Finger Print Lock Glass Door DLA7",
+      "slug": "tuya-smart-finger-print-lock-glass-door-dla7",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 17000,
+        "max": 22000
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Tuya-compatible smart fingerprint lock designed specifically for glass doors with seamless smart home integration.",
+      "features": [
+        "Designed for frameless and framed glass doors",
+        "High-precision fingerprint sensor",
+        "Tuya app integration for remote control",
+        "Supports temporary and recurring access codes",
+        "Anti-theft alarm with vibration detection"
+      ],
+      "inStock": true
     },
     {
       "id": 17,
-      "name": "Track Socket System",
-      "slug": "track-socket-system",
-      "category": "Smart Sockets",
-      "categorySlug": "smart-sockets",
-      "price": { "min": 900, "max": 5200 },
-      "model": "Track Socket",
-      "image": "https://innovateit.com.bd/public/medies/Sep-2025/1756817583.68b6e8af29c0c.webp",
-      "description": "Modular track-based socket system allowing flexible positioning of power outlets along a mounted track. Add or reposition sockets as needed.",
-      "features": ["Modular track design", "Flexible positioning", "Multiple socket types", "Easy to reconfigure", "Clean aesthetics", "Various lengths available"]
+      "name": "I404 Smart Bedroom Door Lock",
+      "slug": "i404-smart-bedroom-door-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 8999,
+        "max": 18000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759484572.68df9a9c5d888.webp",
+      "description": "Compact smart lock optimized for interior and bedroom doors with quiet operation and sleek modern styling.",
+      "features": [
+        "Compact design for interior doors",
+        "Fingerprint and PIN code unlock",
+        "Silent motor for bedroom use",
+        "Quick and easy installation",
+        "Battery life up to 10 months"
+      ],
+      "inStock": true
     },
     {
       "id": 18,
-      "name": "European Standard Socket",
-      "slug": "european-standard-socket",
-      "category": "Smart Sockets",
-      "categorySlug": "smart-sockets",
-      "price": { "min": 1900, "max": 2800 },
-      "model": "EU Socket",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756637706.68b42a0a32170.webp",
-      "description": "European standard wall socket with safety shutters and premium finish. Compatible with Type C and Type F plugs.",
-      "features": ["European standard", "Safety shutters", "Premium finish", "Durable construction", "Easy installation", "Child-safe design"]
+      "name": "Regal K2Pro Fingerprint Lock",
+      "slug": "regal-k2pro-fingerprint-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 34000,
+        "max": 60000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759484963.68df9c236ed13.webp",
+      "description": "Premium Regal K2Pro fingerprint lock with robust construction for high-security residential and commercial applications.",
+      "features": [
+        "High-security fingerprint sensor with large capacity",
+        "Heavy-duty stainless steel construction",
+        "Multiple access methods including app and card",
+        "Suitable for thick commercial doors",
+        "Built-in alarm and auto-lock function",
+        "Weather-resistant for outdoor gates"
+      ],
+      "inStock": true
     },
     {
       "id": 19,
-      "name": "7-inch Display Video Doorbell",
-      "slug": "7-inch-display-video-doorbell",
-      "category": "Smart Doorbells & Cameras",
-      "categorySlug": "smart-doorbells-cameras",
-      "price": { "min": 16500, "max": 16500 },
-      "model": "Video Doorbell 7\"",
-      "image": "https://innovateit.com.bd/public/medies/May-2025/1746875759.681f356fc367b.jpg",
-      "description": "Complete video doorbell system with 7-inch indoor display, HD camera, two-way audio, and night vision. See and speak with visitors from inside your home.",
-      "features": ["7-inch indoor display", "HD camera", "Two-way audio", "Night vision", "Motion detection", "Photo/video recording"]
+      "name": "H-PRO Fingerprint Smart Door Handle Lock",
+      "slug": "h-pro-fingerprint-smart-door-handle-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 6500,
+        "max": 10500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759485013.68df9c557f058.webp",
+      "description": "Affordable fingerprint-enabled door handle lock that replaces your existing handle for smart security upgrade.",
+      "features": [
+        "Replaces standard door handle easily",
+        "Built-in fingerprint reader in handle",
+        "PIN code backup access",
+        "Reversible handle for left/right doors",
+        "Battery powered with USB-C emergency charging"
+      ],
+      "inStock": true
     },
     {
       "id": 20,
-      "name": "PD8 - 4.3\" LCD Door Viewer Camera",
-      "slug": "pd8-lcd-door-viewer-camera",
-      "category": "Smart Doorbells & Cameras",
-      "categorySlug": "smart-doorbells-cameras",
-      "price": { "min": 13500, "max": 13500 },
-      "model": "PD8",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756623306.68b3f1caf3fd7.webp",
-      "description": "Digital door viewer with 4.3-inch LCD screen replacing traditional peepholes. Captures photos of visitors and provides clear night vision.",
-      "features": ["4.3-inch LCD display", "Peephole camera", "Photo capture", "Night vision", "Wide angle lens", "Easy installation"]
+      "name": "Crown V26 Smart Door Lock 3D Face Recognition",
+      "slug": "crown-v26-smart-door-lock-3d-face-recognition",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 22000,
+        "max": 30000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759559636.68e0bfd4bfa40.webp",
+      "description": "Crown V26 smart lock with 3D face recognition and large interactive display combining biometrics with intuitive UI.",
+      "features": [
+        "3D structured light face recognition",
+        "Large HD display for easy interaction",
+        "Fingerprint, password, card, and app access",
+        "Dual-core processor for fast recognition",
+        "Supports voice assistant integration",
+        "OTA firmware updates"
+      ],
+      "inStock": true
     },
     {
       "id": 21,
-      "name": "PD10 - 4.3\" Peephole Camera",
-      "slug": "pd10-peephole-camera",
-      "category": "Smart Doorbells & Cameras",
-      "categorySlug": "smart-doorbells-cameras",
-      "price": { "min": 9500, "max": 9500 },
-      "model": "PD10",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756633970.68b41b72187b5.webp",
-      "description": "Affordable digital peephole camera with 4.3-inch display and motion detection. Simple upgrade from traditional peepholes with modern smart features.",
-      "features": ["4.3-inch display", "Digital peephole", "Motion detection", "Easy installation", "Battery powered", "Wide viewing angle"]
+      "name": "Tango M8 Smart Door Lock Face ID Camera",
+      "slug": "tango-m8-smart-door-lock-face-id-camera",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 20000,
+        "max": 38000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756625707.68b3fb2b1cecf.webp",
+      "description": "Tango M8 smart lock with Face ID and integrated camera for secure visual verification and remote monitoring.",
+      "features": [
+        "Face ID with built-in HD camera",
+        "Remote video call to visitors via app",
+        "Fingerprint and PIN code backup",
+        "Motion-activated recording",
+        "Tuya smart home compatible",
+        "Durable alloy body construction"
+      ],
+      "inStock": true
     },
     {
       "id": 22,
-      "name": "RGB LED Strip Light DC12V",
-      "slug": "rgb-led-strip-light-dc12v",
-      "category": "Smart Lighting",
-      "categorySlug": "smart-lighting",
-      "price": { "min": 3000, "max": 3000 },
-      "model": "LED Strip DC12V",
-      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759559492.68e0bf44aac84.webp",
-      "description": "Flexible RGB LED strip light powered by DC12V. Create ambient lighting with millions of color options. Cuttable to fit any length.",
-      "features": ["DC12V power", "RGB color changing", "Remote control", "Flexible strip", "Cuttable to size", "Adhesive backing"]
+      "name": "GK18 Fingerprint Card Password Lock",
+      "slug": "gk18-fingerprint-card-password-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 14000,
+        "max": 14000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1755766515.68a6def31798f.png",
+      "description": "Reliable GK18 door lock with fingerprint, card, and password access at a competitive price point.",
+      "features": [
+        "Fingerprint, RFID card, and password unlock",
+        "Stores up to 100 fingerprints",
+        "Anti-peep password input",
+        "Mechanical key backup",
+        "Auto-lock with adjustable delay"
+      ],
+      "inStock": true
     },
     {
       "id": 23,
-      "name": "RGB LED Strip Light DC24V",
-      "slug": "rgb-led-strip-light-dc24v",
-      "category": "Smart Lighting",
-      "categorySlug": "smart-lighting",
-      "price": { "min": 6000, "max": 6000 },
-      "model": "LED Strip DC24V",
-      "image": "https://innovateit.com.bd/public/medies/Sep-2025/1758435767.68cf99b7eace3.webp",
-      "description": "Professional-grade DC24V RGB LED strip light supporting longer runs without voltage drop. Ideal for commercial and large residential installations.",
-      "features": ["DC24V power", "RGB color changing", "Longer run capability", "Professional grade", "Even brightness", "Durable construction"]
+      "name": "SSCL Fingerprint Drawer Lock",
+      "slug": "sscl-fingerprint-drawer-lock",
+      "category": "Smart Door Locks",
+      "categorySlug": "smart-door-locks",
+      "price": {
+        "min": 1700,
+        "max": 2750
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1761821182.690341fe8b621.png",
+      "description": "Compact fingerprint lock for drawers, cabinets, and small storage units adding biometric security to furniture.",
+      "features": [
+        "Miniature design for drawers and cabinets",
+        "Fast fingerprint recognition",
+        "Stores up to 20 fingerprints",
+        "USB rechargeable battery",
+        "Easy adhesive or screw mounting"
+      ],
+      "inStock": true
     },
     {
       "id": 24,
-      "name": "Smart RGB LED Strip Light",
-      "slug": "smart-rgb-led-strip-light",
-      "category": "Smart Lighting",
-      "categorySlug": "smart-lighting",
-      "price": { "min": 2600, "max": 2600 },
-      "model": "Smart LED Strip",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756632326.68b415067425d.webp",
-      "description": "WiFi-enabled smart LED strip with app and voice control. Choose from 16 million colors and create custom lighting scenes.",
-      "features": ["WiFi enabled", "App control", "Voice control", "16 million colors", "Music sync", "Schedule timer"]
+      "name": "Philips Hue 5/6 inch Recessed Downlight",
+      "slug": "philips-hue-5-6-inch-recessed-downlight",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 13499,
+        "max": 13499
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Philips Hue recessed downlight offering millions of colors and tunable white light for ambient living spaces.",
+      "features": [
+        "16 million colors and tunable white",
+        "Compatible with Hue Bridge for full features",
+        "Voice control via Alexa, Google, and Siri",
+        "Fits standard 5/6 inch recessed cans",
+        "Dimmable with smooth transitions"
+      ],
+      "inStock": true
     },
     {
       "id": 25,
-      "name": "Motion Sensor LED Closet Light",
-      "slug": "motion-sensor-led-closet-light",
-      "category": "Smart Lighting",
-      "categorySlug": "smart-lighting",
-      "price": { "min": 1200, "max": 1200 },
-      "model": "Sensor Closet Light",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756632262.68b414c6e2bb1.webp",
-      "description": "PIR motion sensor LED light that automatically illuminates closets, cabinets, and dark spaces. Rechargeable with magnetic mounting.",
-      "features": ["PIR motion sensor", "Auto on/off", "USB rechargeable", "Magnetic mount", "Warm white light", "Compact design"]
+      "name": "Philips Hue A26 Smart Light Starter Kit",
+      "slug": "philips-hue-a26-smart-light-starter-kit",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 39999,
+        "max": 39999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Complete Philips Hue starter kit with smart bulbs and Hue Bridge for beginning your smart lighting journey.",
+      "features": [
+        "Includes Hue Bridge and smart bulbs",
+        "Full color and white ambiance support",
+        "Set up scenes, routines, and automations",
+        "Works with all major voice assistants",
+        "Expandable with additional Hue products",
+        "Energy-efficient LED technology"
+      ],
+      "inStock": true
     },
     {
       "id": 26,
-      "name": "LED Neon Table Lamp",
-      "slug": "led-neon-table-lamp",
-      "category": "Smart Lighting",
-      "categorySlug": "smart-lighting",
-      "price": { "min": 1500, "max": 1500 },
-      "model": "Neon Lamp",
-      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759485065.68df9c8990964.webp",
-      "description": "Decorative LED neon-style table lamp with USB power. Available in multiple shapes for creative room decoration and ambient lighting.",
-      "features": ["Neon-style glow", "USB powered", "Decorative design", "Multiple shapes available", "Low power consumption", "Safe and cool to touch"]
+      "name": "Philips Hue Play Gradient Lightstrip PC",
+      "slug": "philips-hue-play-gradient-lightstrip-pc",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 41500,
+        "max": 41500
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Immersive gradient lightstrip for PC monitors displaying multiple colors simultaneously synced with screen content.",
+      "features": [
+        "Multi-color gradient effect along the strip",
+        "Syncs with PC screen content via Hue Sync",
+        "Easy mount on back of monitors 24-27 inches",
+        "Requires Hue Bridge for operation",
+        "Customizable through Hue app"
+      ],
+      "inStock": true
     },
     {
       "id": 27,
-      "name": "AIRROBO T20+ Robot Vacuum & Mop",
-      "slug": "airrobo-t20-plus-robot-vacuum-mop",
-      "category": "Smart Home Cleaning",
-      "categorySlug": "smart-home-cleaning",
-      "price": { "min": 55000, "max": 55000 },
-      "model": "AIRROBO T20+",
-      "image": "https://innovateit.com.bd/public/medies/Jul-2025/1753099743.687e2ddf657bf.jpg",
-      "description": "Advanced robot vacuum and mop combo with auto-empty station and LiDAR navigation. Hands-free floor cleaning with intelligent mapping.",
-      "features": ["Vacuum and mop combo", "Auto-empty station", "LiDAR navigation", "App control", "Multi-floor mapping", "No-go zones"]
+      "name": "Philips Hue Signe Smart Table Lamp",
+      "slug": "philips-hue-signe-smart-table-lamp",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 38500,
+        "max": 38500
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Elegant Philips Hue Signe table lamp with gradient color illumination adding sophisticated ambient lighting.",
+      "features": [
+        "Vertical gradient light with multiple colors",
+        "Premium aluminum build with minimalist design",
+        "Full Hue ecosystem integration",
+        "Customizable light scenes and effects",
+        "Voice and app controllable"
+      ],
+      "inStock": true
     },
     {
       "id": 28,
+      "name": "Philips Signe Gradient Floor Lamp",
+      "slug": "philips-signe-gradient-floor-lamp",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 74999,
+        "max": 74999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Premium Philips Hue Signe gradient floor lamp projecting beautiful multicolor light upward along walls.",
+      "features": [
+        "Tall floor-standing gradient light design",
+        "Displays up to 5 colors simultaneously",
+        "Brushed aluminum premium construction",
+        "Hue entertainment sync for movies and music",
+        "Programmable scenes and schedules",
+        "Works with Apple HomeKit, Alexa, and Google"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 29,
+      "name": "Nanoleaf Canvas Expansion Pack 4pcs",
+      "slug": "nanoleaf-canvas-expansion-pack-4pcs",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 19999,
+        "max": 19999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Expansion pack of 4 Nanoleaf Canvas square light panels to extend your modular light display.",
+      "features": [
+        "4 additional Canvas square panels",
+        "Touch-reactive surface for interactive control",
+        "Seamless connection with existing Canvas setup",
+        "16 million color options",
+        "Music sync and screen mirror capabilities"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "name": "Nanoleaf Canvas Light Panels Smarter Kit 9PCs",
+      "slug": "nanoleaf-canvas-light-panels-smarter-kit-9pcs",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 49999,
+        "max": 49999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Complete Nanoleaf Canvas starter kit with 9 square light panels creating stunning modular wall art.",
+      "features": [
+        "9 square touch-enabled light panels",
+        "Modular design for unlimited layouts",
+        "Touch gestures to control lights",
+        "Music visualization mode",
+        "Voice assistant compatible",
+        "Includes mounting and linking hardware"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 31,
+      "name": "Nanoleaf Hexagon Shape",
+      "slug": "nanoleaf-hexagon-shape",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 49999,
+        "max": 49999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Nanoleaf hexagon-shaped modular light panels for creative honeycomb wall designs with vivid colors.",
+      "features": [
+        "Hexagonal shape for creative arrangements",
+        "16 million colors with dynamic scenes",
+        "Connect and expand with other Nanoleaf shapes",
+        "Thread and WiFi connectivity",
+        "Rhythm music sync module included",
+        "Compatible with Alexa, Google, and HomeKit"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 32,
+      "name": "Nanoleaf Triangle Shape Light Panels 9PCs",
+      "slug": "nanoleaf-triangle-shape-light-panels-9pcs",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 49999,
+        "max": 49999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Nanoleaf triangle light panels kit with 9 pieces for dynamic geometric wall art with vibrant lighting.",
+      "features": [
+        "9 triangle-shaped modular light panels",
+        "Snap-together magnetic connectors",
+        "Dynamic color scenes and effects",
+        "Screen mirror for immersive entertainment",
+        "Programmable schedules and automations",
+        "Easy peel-and-stick mounting"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 33,
+      "name": "Philips Hue Gradient Ambience Lightstrip 2m",
+      "slug": "philips-hue-gradient-ambience-lightstrip-2m",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 24999,
+        "max": 24999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Philips Hue gradient lightstrip displaying multiple colors along its 2-meter length for accent lighting.",
+      "features": [
+        "2-meter length with gradient multi-color display",
+        "Multiple colors shown at once along the strip",
+        "Flexible for curved and straight installations",
+        "Adhesive backing for easy mounting",
+        "Full Hue app control and automation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 34,
+      "name": "Philips Hue GU-10 3 Pack",
+      "slug": "philips-hue-gu-10-3-pack",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 27999,
+        "max": 27999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Pack of 3 Philips Hue GU10 smart spotlight bulbs with full color capability for track and recessed lighting.",
+      "features": [
+        "3 GU10 smart bulbs included",
+        "Full color and white ambiance",
+        "Standard GU10 base fits existing fixtures",
+        "Dimmable without a dimmer switch",
+        "Scene creation and scheduling via app"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 35,
+      "name": "Philips Hue GU10 2-pack Color Ambiance",
+      "slug": "philips-hue-gu10-2-pack-color-ambiance",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 19999,
+        "max": 19999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Two-pack of Philips Hue GU10 color ambiance smart bulbs for spotlight fixture upgrades.",
+      "features": [
+        "2 GU10 color ambiance bulbs",
+        "16 million colors available",
+        "Warm to cool white tuning",
+        "Works with Hue Bridge",
+        "Energy efficient LED technology"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 36,
+      "name": "Waterproof Outdoor & Indoor Aluminum Wall Light",
+      "slug": "waterproof-outdoor-indoor-aluminum-wall-light",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 2800,
+        "max": 2800
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Durable aluminum wall light rated for outdoor and indoor use with waterproof design.",
+      "features": [
+        "Waterproof IP65 rating",
+        "Premium aluminum construction",
+        "Suitable for indoor and outdoor mounting",
+        "Energy-efficient LED light source",
+        "Modern minimalist design aesthetic"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 37,
+      "name": "Square Shape Aluminum LED Office Panel Light 54W",
+      "slug": "square-shape-aluminum-led-office-panel-light-54w",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 18500,
+        "max": 18500
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "High-output 54W LED panel light in square aluminum frame for office and commercial spaces.",
+      "features": [
+        "54W high-output LED panel",
+        "Square aluminum frame construction",
+        "Uniform light distribution without glare",
+        "Suitable for suspended and surface mounting",
+        "Long lifespan of 50,000+ hours"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 38,
+      "name": "E14 Double Color Changing 12W Light Bulb",
+      "slug": "e14-double-color-changing-12w-light-bulb",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 210,
+        "max": 210
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Affordable E14 base LED bulb with dual color temperature switching between warm and cool white.",
+      "features": [
+        "E14 small screw base",
+        "12W energy-efficient LED",
+        "Dual color temperature switching",
+        "Warm white and cool white modes",
+        "Long-lasting LED construction"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 39,
+      "name": "E27 Double Color Changing 12W Light Bulb",
+      "slug": "e27-double-color-changing-12w-light-bulb",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 180,
+        "max": 180
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Versatile E27 base LED bulb with dual color temperature options for different moods.",
+      "features": [
+        "Standard E27 screw base",
+        "12W power with high lumen output",
+        "Warm and cool white toggle",
+        "Energy saving compared to traditional bulbs",
+        "Easy drop-in replacement"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 40,
+      "name": "LED Pocket Bulb Light",
+      "slug": "led-pocket-bulb-light",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 180,
+        "max": 180
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Ultra-compact LED pocket bulb for portable lighting, travel, and emergencies.",
+      "features": [
+        "Ultra-compact pocket-sized design",
+        "Bright LED light output",
+        "USB powered for universal compatibility",
+        "Lightweight and portable",
+        "Ideal for emergency and travel use"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 41,
+      "name": "Solar Street Light 150W All in One LED",
+      "slug": "solar-street-light-150w-all-in-one-led",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 8450,
+        "max": 8450
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "All-in-one 150W solar street light with integrated panel, battery, and LED for self-sustaining outdoor lighting.",
+      "features": [
+        "150W high-brightness LED output",
+        "Integrated solar panel and battery",
+        "Automatic dusk-to-dawn operation",
+        "Remote control with multiple modes",
+        "IP65 waterproof for all weather",
+        "Motion sensor for energy conservation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 42,
+      "name": "Solar Street Light 300W LED",
+      "slug": "solar-street-light-300w-led",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 15600,
+        "max": 15600
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Powerful 300W solar LED street light for large outdoor areas including roads and parking lots.",
+      "features": [
+        "300W ultra-bright LED array",
+        "High-capacity solar panel and battery",
+        "Covers large outdoor areas",
+        "Smart light control with remote",
+        "Durable weatherproof construction",
+        "Easy pole-mount installation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 43,
+      "name": "RGB LED Strip Light DC12V",
+      "slug": "rgb-led-strip-light-dc12v",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 3000,
+        "max": 3000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759559492.68e0bf44aac84.webp",
+      "description": "Flexible RGB LED strip light on 12V DC for colorful accent lighting on shelves, desks, and ceilings.",
+      "features": [
+        "Full RGB color spectrum",
+        "DC12V safe low-voltage operation",
+        "Flexible strip for curved surfaces",
+        "Cuttable at marked intervals",
+        "Adhesive backing for easy installation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 44,
+      "name": "RGB LED Strip Light DC24V",
+      "slug": "rgb-led-strip-light-dc24v",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 6000,
+        "max": 6000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Sep-2025/1758435767.68cf99b7eace3.webp",
+      "description": "Premium 24V DC RGB LED strip for longer runs without voltage drop in professional installations.",
+      "features": [
+        "DC24V for longer strip runs",
+        "Rich RGB color options",
+        "Minimal voltage drop over distance",
+        "Professional-grade LED chips",
+        "Remote and app control compatible"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 45,
+      "name": "Smart RGB LED Strip Light",
+      "slug": "smart-rgb-led-strip-light",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 2600,
+        "max": 2600
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756632326.68b415067425d.webp",
+      "description": "WiFi-enabled smart RGB LED strip with app and voice control for custom lighting scenes.",
+      "features": [
+        "WiFi enabled for smart control",
+        "Works with Alexa and Google Assistant",
+        "Music sync mode for parties",
+        "Timer and schedule functions",
+        "Millions of color combinations"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 46,
+      "name": "Motion Sensor LED Closet Light",
+      "slug": "motion-sensor-led-closet-light",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 1200,
+        "max": 1200
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756632262.68b414c6e2bb1.webp",
+      "description": "Battery-operated LED light with motion sensor for closets, cabinets, and hallways.",
+      "features": [
+        "PIR motion sensor activation",
+        "Auto-off after 15-30 seconds",
+        "Battery powered with USB recharging",
+        "Magnetic and adhesive mounting options",
+        "Bright white LED illumination"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 47,
+      "name": "LED Neon Table Lamp",
+      "slug": "led-neon-table-lamp",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 1500,
+        "max": 1500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Oct-2025/1759485065.68df9c8990964.webp",
+      "description": "Decorative LED neon-style table lamp for bedrooms and gaming setups with trendy neon glow.",
+      "features": [
+        "Neon-style LED glow effect",
+        "Cool to the touch and safe",
+        "USB powered for easy placement",
+        "Compact tabletop design",
+        "Available in multiple color options"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 48,
+      "name": "Ceiling Fan Lamp with Remote 30W",
+      "slug": "ceiling-fan-lamp-with-remote-30w",
+      "category": "Smart Lights & Fans",
+      "categorySlug": "smart-lights-fans",
+      "price": {
+        "min": 1890,
+        "max": 1990
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Jun-2025/1750930543.685d146f1fbba.jpg",
+      "description": "Combined ceiling fan and LED lamp with remote control providing air circulation and lighting.",
+      "features": [
+        "30W LED with adjustable color temperature",
+        "3-speed fan with quiet motor",
+        "Remote control included",
+        "Easy ceiling mount installation",
+        "Modern flush-mount design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 49,
+      "name": "SmartLife 1 Gang Smart Touch Wall Switch WiFi",
+      "slug": "smartlife-1-gang-smart-touch-wall-switch-wifi",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1999,
+        "max": 1999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Single gang WiFi smart touch wall switch with sleek glass panel for app and voice control.",
+      "features": [
+        "1 gang touch-sensitive glass panel",
+        "WiFi connectivity for remote control",
+        "Compatible with Alexa and Google Assistant",
+        "Timer and scheduling functions",
+        "LED indicator for easy night visibility"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 50,
+      "name": "SmartLife 2 Gang Smart Touch Wall Switch WiFi",
+      "slug": "smartlife-2-gang-smart-touch-wall-switch-wifi",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2099,
+        "max": 2099
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Dual gang WiFi smart touch wall switch controlling two circuits independently with glass panel.",
+      "features": [
+        "2 independent touch-controlled gangs",
+        "WiFi enabled for smartphone control",
+        "Individual or group control via app",
+        "Voice assistant integration",
+        "Tempered glass panel surface"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 51,
+      "name": "SmartLife 3 Gang Smart Touch Wall Switch WiFi",
+      "slug": "smartlife-3-gang-smart-touch-wall-switch-wifi",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2199,
+        "max": 2199
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Three gang WiFi smart touch wall switch for comprehensive room lighting control.",
+      "features": [
+        "3 independently controllable gangs",
+        "Capacitive touch glass panel",
+        "WiFi connected with app control",
+        "Scene and automation support",
+        "Fits standard wall boxes"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 52,
+      "name": "SmartLife 4 Gang Smart Touch Wall Switch WiFi",
+      "slug": "smartlife-4-gang-smart-touch-wall-switch-wifi",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2599,
+        "max": 2599
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Four gang WiFi smart touch wall switch for maximum control over multiple circuits.",
+      "features": [
+        "4 independent touch-sensitive controls",
+        "WiFi for remote and voice control",
+        "Supports complex automation scenes",
+        "Backlit indicators for each gang",
+        "Premium tempered glass finish",
+        "No neutral wire required option"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 53,
+      "name": "SmartLife AC Socket",
+      "slug": "smartlife-ac-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1799,
+        "max": 1799
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Dedicated smart AC socket for air conditioner units with WiFi remote control and scheduling.",
+      "features": [
+        "Designed for AC unit connections",
+        "WiFi enabled for remote on/off control",
+        "Scheduling and timer functions",
+        "High-current rated for AC loads",
+        "Voice assistant compatible"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 54,
+      "name": "SmartLife Bellpush",
+      "slug": "smartlife-bellpush",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1199,
+        "max": 1199
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Matching smart wall bellpush button complementing SmartLife switch aesthetics.",
+      "features": [
+        "Matches SmartLife switch design language",
+        "Touch-sensitive bell button",
+        "Durable glass panel surface",
+        "Standard wall box compatible",
+        "Easy wired installation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 55,
+      "name": "SmartLife Dish Socket",
+      "slug": "smartlife-dish-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1199,
+        "max": 1199
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Satellite dish connection wall socket in the SmartLife design series.",
+      "features": [
+        "Satellite dish F-type connector",
+        "Matches SmartLife switch aesthetics",
+        "Glass panel front plate",
+        "Standard wall box mounting",
+        "High-quality signal pass-through"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 56,
+      "name": "SmartLife Fan & Light Controller Smart Wall Switch",
+      "slug": "smartlife-fan-light-controller-smart-wall-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2800,
+        "max": 2800
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Combined smart wall switch for controlling both fan speed and light brightness.",
+      "features": [
+        "Independent fan speed and light control",
+        "WiFi connected for app management",
+        "Multiple fan speed settings",
+        "Light dimming capability",
+        "Voice control via Alexa and Google",
+        "Touch-sensitive glass panel"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 57,
+      "name": "SmartLife Internet Socket",
+      "slug": "smartlife-internet-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1199,
+        "max": 1199
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "RJ45 ethernet wall socket in SmartLife design range with premium aesthetics.",
+      "features": [
+        "RJ45 ethernet port",
+        "Cat5e/Cat6 compatible",
+        "Matching SmartLife glass panel design",
+        "Standard wall box installation",
+        "Reliable wired network connection"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 58,
+      "name": "SmartLife Smart Touch Bell Push",
+      "slug": "smartlife-smart-touch-bell-push",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2299,
+        "max": 2299
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Premium smart touch doorbell button with WiFi notification capability.",
+      "features": [
+        "Touch-sensitive doorbell button",
+        "WiFi connected with push notifications",
+        "Premium glass panel design",
+        "Works with existing doorbell wiring",
+        "LED backlit indicator"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 59,
+      "name": "SmartLife Smart Wall Socket 13-amp 3-pin",
+      "slug": "smartlife-smart-wall-socket-13-amp-3-pin",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2399,
+        "max": 2399
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "WiFi-enabled 13-amp 3-pin smart wall socket for remote appliance control.",
+      "features": [
+        "13-amp rated for high-power appliances",
+        "3-pin universal socket",
+        "WiFi for remote on/off control",
+        "Power consumption monitoring",
+        "Timer and scheduling via app"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 60,
+      "name": "SmartLife TNT Socket",
+      "slug": "smartlife-tnt-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1199,
+        "max": 1199
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Telephone and network twin wall socket in SmartLife design series.",
+      "features": [
+        "Combined telephone and network ports",
+        "Matching SmartLife glass panel design",
+        "Standard wall box compatible",
+        "Clean cable management",
+        "High-quality connectors"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 61,
+      "name": "SB 1 Gang Smart WiFi Light Switch",
+      "slug": "sb-1-gang-smart-wifi-light-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 3280,
+        "max": 3280
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "SB series single gang WiFi smart light switch with modern touch panel.",
+      "features": [
+        "Single gang touch panel switch",
+        "WiFi connectivity for remote access",
+        "Works with Alexa and Google Home",
+        "Countdown and schedule timers",
+        "Flame-retardant PC panel material"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 62,
+      "name": "SB 2 Gang Smart WiFi Light Switch",
+      "slug": "sb-2-gang-smart-wifi-light-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 3480,
+        "max": 3480
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "SB series dual gang WiFi smart light switch for two independent circuits.",
+      "features": [
+        "2 gang independent touch controls",
+        "WiFi enabled for smartphone app",
+        "Voice control support",
+        "Scene and group control",
+        "Elegant modern panel design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 63,
+      "name": "Smart WiFi 4Gang Light Switch",
+      "slug": "smart-wifi-4gang-light-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 4300,
+        "max": 4300
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Four gang WiFi smart light switch for controlling up to four circuits independently.",
+      "features": [
+        "4 independent WiFi-controlled gangs",
+        "Touch-sensitive panel interface",
+        "App control with scheduling",
+        "Alexa and Google Assistant support",
+        "Overload protection built-in"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 64,
+      "name": "Smart WiFi Fan Switch",
+      "slug": "smart-wifi-fan-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2250,
+        "max": 2250
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Dedicated WiFi smart switch for ceiling fan speed control via app or voice.",
+      "features": [
+        "Multi-speed fan control via WiFi",
+        "Touch panel for manual control",
+        "App-based speed adjustment",
+        "Voice assistant integration",
+        "Compatible with standard ceiling fans"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 65,
+      "name": "Smart WiFi Fan Switch Work with Alexa",
+      "slug": "smart-wifi-fan-switch-work-with-alexa",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 4500,
+        "max": 4500
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Premium WiFi fan switch with verified Alexa compatibility for hands-free control.",
+      "features": [
+        "Certified Alexa compatibility",
+        "Multi-speed fan control",
+        "WiFi connected with app support",
+        "Timer and scheduling features",
+        "Touch-sensitive panel with indicator",
+        "Works with Google Assistant too"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 66,
+      "name": "WiFi and Remote Control Fan Light Smart Switch",
+      "slug": "wifi-and-remote-control-fan-light-smart-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 3100,
+        "max": 3100
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Combined fan and light smart switch with WiFi and physical remote control.",
+      "features": [
+        "Fan speed and light control in one switch",
+        "WiFi and RF remote dual control",
+        "Includes physical remote control",
+        "App-based management and scheduling",
+        "Wall-mount touch panel"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 67,
+      "name": "Smart WiFi Single Wall Socket 5 Pin with USB",
+      "slug": "smart-wifi-single-wall-socket-5-pin-with-usb",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 3665,
+        "max": 3665
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Smart WiFi wall socket with 5-pin outlet and integrated USB charging.",
+      "features": [
+        "5-pin power socket with USB port",
+        "WiFi for remote power control",
+        "USB charging for phones and tablets",
+        "Timer and scheduling via app",
+        "Surge protection built-in"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 68,
+      "name": "Smart WiFi Wall Socket Combo Double Socket USB",
+      "slug": "smart-wifi-wall-socket-combo-double-socket-usb",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 5200,
+        "max": 5200
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Dual smart wall socket with WiFi control and USB charging ports.",
+      "features": [
+        "Dual power sockets independently controlled",
+        "USB charging ports included",
+        "WiFi remote control via app",
+        "Energy monitoring for each socket",
+        "Voice control with Alexa and Google"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 69,
+      "name": "SB WiFi Universal Power Outlet Socket",
+      "slug": "sb-wifi-universal-power-outlet-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 3250,
+        "max": 3250
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Universal power outlet socket with WiFi smart control for multiple plug types.",
+      "features": [
+        "Universal socket accepts multiple plug types",
+        "WiFi enabled for smart control",
+        "App-based on/off and scheduling",
+        "16A high-current rating",
+        "Compact wall-mount design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 70,
+      "name": "Digital LCD Dimmer Switch",
+      "slug": "digital-lcd-dimmer-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 7000,
+        "max": 7000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1748671898.683a9d9a7b469.webp",
+      "description": "Smart dimmer switch with digital LCD display for precise brightness control.",
+      "features": [
+        "LCD display showing current brightness level",
+        "Smooth dimming from 0-100%",
+        "Touch-sensitive control interface",
+        "Compatible with dimmable LED and incandescent bulbs",
+        "Standard wall box installation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 71,
+      "name": "MiFare Card Energy Saver Switch",
+      "slug": "mifare-card-energy-saver-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1800,
+        "max": 1800
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Jun-2025/1749757229.684b2d2d36413.webp",
+      "description": "Hotel-style MiFare card energy saver switch controlling room power on card insertion.",
+      "features": [
+        "MiFare RFID card activated",
+        "Controls room power circuits on card insert",
+        "30-second delay before power cutoff",
+        "Reduces energy waste when room is empty",
+        "Standard wall mount installation"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 72,
+      "name": "WiFi 4-Gang Touch Switch",
+      "slug": "wifi-4-gang-touch-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2300,
+        "max": 2800
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Apr-2025/1745915895.68108ff7ed641.jpg",
+      "description": "Four gang WiFi touch switch with elegant glass panel at an affordable price.",
+      "features": [
+        "4 gang capacitive touch controls",
+        "WiFi connectivity with app control",
+        "Tempered glass panel",
+        "Works with Tuya/Smart Life app",
+        "Alexa and Google Assistant compatible"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 73,
+      "name": "LCD Infrared Sensor Switch",
+      "slug": "lcd-infrared-sensor-switch",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 7500,
+        "max": 7500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756634043.68b41bbbdb2a1.webp",
+      "description": "Infrared motion sensor switch with LCD display for automatic lighting in hallways and bathrooms.",
+      "features": [
+        "Infrared motion detection sensor",
+        "LCD display for settings and status",
+        "Adjustable sensitivity and timer",
+        "Daylight sensor to prevent daytime activation",
+        "Standard wall mount replacement"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 74,
+      "name": "WiFi Smart Universal Socket with USB",
+      "slug": "wifi-smart-universal-socket-with-usb",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2900,
+        "max": 2900
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1747293082.6825939ad1e44.jpg",
+      "description": "WiFi-enabled universal wall socket with integrated USB port for smart power control.",
+      "features": [
+        "Universal socket for multiple plug types",
+        "Integrated USB charging port",
+        "WiFi remote control via app",
+        "Timer and scheduling functions",
+        "Compact design for standard wall boxes"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 75,
+      "name": "5-Pin Universal Socket",
+      "slug": "5-pin-universal-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2000,
+        "max": 3000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1748358044.6835d39ca34bb.jpg",
+      "description": "Standard 5-pin universal wall socket with premium build quality for Bangladesh plug formats.",
+      "features": [
+        "5-pin universal socket design",
+        "Accepts multiple plug types",
+        "High-quality contact materials",
+        "Safety shutters for child protection",
+        "Standard wall box mounting"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 76,
+      "name": "Glass Panel 5-Pin Touch Socket USB",
+      "slug": "glass-panel-5-pin-touch-socket-usb",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2500,
+        "max": 3500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1748358402.6835d502c9711.jpg",
+      "description": "Premium glass panel 5-pin wall socket with touch switch and USB charging port.",
+      "features": [
+        "Tempered glass front panel",
+        "5-pin socket with touch on/off switch",
+        "USB charging port built-in",
+        "Indicator light for power status",
+        "Premium fit and finish"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 77,
+      "name": "Track Socket System",
+      "slug": "track-socket-system",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 900,
+        "max": 5200
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Sep-2025/1756817583.68b6e8af29c0c.webp",
+      "description": "Modular track socket system for repositionable power distribution in kitchens and offices.",
+      "features": [
+        "Modular track-mounted socket system",
+        "Slide and position sockets anywhere on track",
+        "Available in various track lengths",
+        "Supports power, USB, and network modules",
+        "Easy wall or under-cabinet mounting"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 78,
+      "name": "European Standard Socket",
+      "slug": "european-standard-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 1900,
+        "max": 2800
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756637706.68b42a0a32170.webp",
+      "description": "European standard (Type C/F) wall socket for imported European electronics.",
+      "features": [
+        "European Type C/F standard socket",
+        "Recessed design for secure plug fit",
+        "16A current rating",
+        "Grounding contact included",
+        "Standard round wall box compatible"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 79,
+      "name": "Smart Socket with Type C-USB",
+      "slug": "smart-socket-with-type-c-usb",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2500,
+        "max": 2500
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Modern smart wall socket with USB Type-C fast charging port.",
+      "features": [
+        "USB Type-C fast charging port",
+        "Standard power socket included",
+        "Wall-mount installation",
+        "Supports modern USB-C devices",
+        "Sleek integrated panel design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 80,
+      "name": "13A Glass Panel 5 Pin Switched Socket",
+      "slug": "13a-glass-panel-5-pin-switched-socket",
+      "category": "Smart Switches & Sockets",
+      "categorySlug": "smart-switches-sockets",
+      "price": {
+        "min": 2500,
+        "max": 2500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756637591.68b4299747167.png",
+      "description": "Heavy-duty 13A glass panel wall socket with built-in switch and 5-pin universal outlet.",
+      "features": [
+        "13A high-current rating",
+        "5-pin universal outlet",
+        "Built-in rocker switch",
+        "Tempered glass front panel",
+        "Neon indicator light"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 81,
+      "name": "Indoor 2MP Wireless Smart WiFi Camera",
+      "slug": "indoor-2mp-wireless-smart-wifi-camera",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 3800,
+        "max": 3800
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Compact 2MP indoor WiFi security camera for home monitoring with two-way audio.",
+      "features": [
+        "2MP Full HD resolution",
+        "WiFi wireless connectivity",
+        "Two-way audio communication",
+        "Motion detection with push alerts",
+        "Night vision up to 10 meters",
+        "MicroSD and cloud storage support"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 82,
+      "name": "Wireless WiFi Video Doorbell Intercom with LCD",
+      "slug": "wireless-wifi-video-doorbell-intercom-with-lcd",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 29500,
+        "max": 29500
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Complete wireless video doorbell system with indoor LCD monitor and WiFi connectivity.",
+      "features": [
+        "Wireless video doorbell with camera",
+        "Indoor LCD display monitor included",
+        "WiFi connectivity for smartphone access",
+        "Two-way intercom functionality",
+        "Motion detection recording",
+        "Night vision capability"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 83,
+      "name": "Portable Wireless Audio Intercom 1000m",
+      "slug": "portable-wireless-audio-intercom-1000m",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 8250,
+        "max": 8250
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Long-range portable wireless audio intercom with up to 1000 meter range.",
+      "features": [
+        "Up to 1000 meter wireless range",
+        "Clear two-way audio communication",
+        "Portable rechargeable design",
+        "Multiple channel support",
+        "Wall-mount and tabletop options"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 84,
+      "name": "Door Peephole Viewer Camera WiFi 4.3inch",
+      "slug": "door-peephole-viewer-camera-wifi-4-3inch",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 14500,
+        "max": 14500
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "WiFi-enabled door peephole camera with 4.3-inch LCD screen for visitor identification.",
+      "features": [
+        "4.3-inch indoor LCD display",
+        "WiFi for remote viewing on phone",
+        "Wide-angle camera lens",
+        "Motion-activated recording",
+        "Battery powered for easy installation"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 85,
+      "name": "7-inch Display Video Doorbell",
+      "slug": "7-inch-display-video-doorbell",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 16500,
+        "max": 16500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1746875759.681f356fc367b.jpg",
+      "description": "Premium video doorbell system with large 7-inch indoor display for crystal-clear visitor identification.",
+      "features": [
+        "Large 7-inch color LCD indoor monitor",
+        "HD camera with wide-angle lens",
+        "Two-way audio intercom",
+        "Night vision for 24/7 visibility",
+        "Unlock door remotely from monitor",
+        "Supports multiple indoor monitors"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 86,
+      "name": "PD8 4.3\" LCD Door Viewer Camera",
+      "slug": "pd8-4-3-lcd-door-viewer-camera",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 13500,
+        "max": 13500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756623306.68b3f1caf3fd7.webp",
+      "description": "Digital door viewer camera with 4.3-inch LCD display for recording and photo capture.",
+      "features": [
+        "4.3-inch high-resolution LCD display",
+        "Wide-angle door viewer camera",
+        "Photo and video recording",
+        "Motion detection alerts",
+        "Rechargeable battery powered"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 87,
+      "name": "PD10 4.3\" Peephole Camera",
+      "slug": "pd10-4-3-peephole-camera",
+      "category": "Smart Security & Surveillance",
+      "categorySlug": "smart-security-surveillance",
+      "price": {
+        "min": 9500,
+        "max": 9500
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756633970.68b41b72187b5.webp",
+      "description": "Affordable 4.3-inch peephole camera replacing existing peephole with digital display.",
+      "features": [
+        "4.3-inch LCD peephole display",
+        "120-degree wide-angle lens",
+        "One-button photo capture",
+        "Night vision infrared LEDs",
+        "Standard peephole hole compatible"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 88,
+      "name": "Nest Protect Smoke and CO Alarm",
+      "slug": "nest-protect-smoke-and-co-alarm",
+      "category": "Smart Health & Wellness",
+      "categorySlug": "smart-health-wellness",
+      "price": {
+        "min": 16000,
+        "max": 16000
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Google Nest Protect smart smoke and carbon monoxide alarm with app alerts and voice warnings.",
+      "features": [
+        "Smoke and carbon monoxide detection",
+        "Split-spectrum sensor for fast detection",
+        "Phone notifications via Nest app",
+        "Voice alerts describing the danger",
+        "Self-testing sensors and batteries",
+        "Pathlight feature illuminates in darkness"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 89,
+      "name": "Xiaomi MI Body Composition Scale 2",
+      "slug": "xiaomi-mi-body-composition-scale-2",
+      "category": "Smart Health & Wellness",
+      "categorySlug": "smart-health-wellness",
+      "price": {
+        "min": 4999,
+        "max": 4999
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Xiaomi smart body composition scale measuring 13 body metrics with smartphone sync.",
+      "features": [
+        "13 body composition measurements",
+        "Bluetooth connectivity to Mi Fit app",
+        "Hidden LED display on glass surface",
+        "Supports up to 16 user profiles",
+        "High-precision BIA sensors",
+        "Measures weight, BMI, body fat, and more"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 90,
+      "name": "Electric Rechargeable Smart Toothbrush",
+      "slug": "electric-rechargeable-smart-toothbrush",
+      "category": "Smart Health & Wellness",
+      "categorySlug": "smart-health-wellness",
+      "price": {
+        "min": 1499,
+        "max": 1499
+      },
+      "source": "SmartLife",
+      "image": "",
+      "description": "Rechargeable electric toothbrush with smart timer and multiple brushing modes.",
+      "features": [
+        "Multiple brushing modes for different needs",
+        "2-minute smart timer with 30-second intervals",
+        "USB rechargeable with long battery life",
+        "Soft DuPont bristle brush heads",
+        "IPX7 waterproof for shower use"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 91,
+      "name": "UVC Light Box Disinfectant",
+      "slug": "uvc-light-box-disinfectant",
+      "category": "Smart Health & Wellness",
+      "categorySlug": "smart-health-wellness",
+      "price": {
+        "min": 1399,
+        "max": 1399
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "UV-C sterilization box for disinfecting phones, keys, masks, and small items.",
+      "features": [
+        "UV-C light sterilization technology",
+        "Kills 99.9% of bacteria and viruses",
+        "Fits phones, keys, jewelry, and masks",
+        "Automatic 5-minute sterilization cycle",
+        "Compact portable design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 92,
+      "name": "Mosquito Killing Lamp Indoor Pest Control",
+      "slug": "mosquito-killing-lamp-indoor-pest-control",
+      "category": "Smart Health & Wellness",
+      "categorySlug": "smart-health-wellness",
+      "price": {
+        "min": 725,
+        "max": 725
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Indoor mosquito killing lamp using UV light attraction and suction fan trap.",
+      "features": [
+        "UV light attracts mosquitoes",
+        "Suction fan traps insects",
+        "Chemical-free and safe operation",
+        "Quiet operation for bedroom use",
+        "USB powered with low energy consumption"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 93,
+      "name": "AIRROBO T20+ Robot Vacuum Mop",
+      "slug": "airrobo-t20-plus-robot-vacuum-mop",
+      "category": "Smart Home Cleaning",
+      "categorySlug": "smart-home-cleaning",
+      "price": {
+        "min": 55000,
+        "max": 55000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Jul-2025/1753099743.687e2ddf657bf.jpg",
+      "description": "Premium AIRROBO T20+ robot vacuum with mopping function and LiDAR navigation.",
+      "features": [
+        "Combined vacuum and mop functionality",
+        "LiDAR navigation for accurate mapping",
+        "Strong suction power for deep cleaning",
+        "App control with room scheduling",
+        "Auto-empty dust station compatible",
+        "Multi-floor map storage"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 94,
       "name": "X8D Visual-SLAM Robot Vacuum",
       "slug": "x8d-visual-slam-robot-vacuum",
       "category": "Smart Home Cleaning",
       "categorySlug": "smart-home-cleaning",
-      "price": { "min": 45000, "max": 60000 },
-      "model": "X8D",
+      "price": {
+        "min": 45000,
+        "max": 60000
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Jun-2025/1750318321.6853bcf136ee8.jpg",
-      "description": "Intelligent robot vacuum with Visual-SLAM navigation technology for precise room mapping. Powerful suction handles all floor types.",
-      "features": ["Visual SLAM navigation", "Strong suction power", "Multi-floor mapping", "App control", "Voice assistant support", "Auto-recharge"]
+      "description": "Advanced robot vacuum using Visual-SLAM technology for intelligent room mapping.",
+      "features": [
+        "Visual-SLAM camera navigation",
+        "Real-time obstacle detection and avoidance",
+        "Strong suction with multiple power modes",
+        "App-based room mapping and zone cleaning",
+        "Scheduled cleaning support",
+        "Low-profile design fits under furniture"
+      ],
+      "inStock": true
     },
     {
-      "id": 29,
+      "id": 95,
       "name": "Dyson V15 Detect Cordless Vacuum",
       "slug": "dyson-v15-detect-cordless-vacuum",
       "category": "Smart Home Cleaning",
       "categorySlug": "smart-home-cleaning",
-      "price": { "min": 85500, "max": 88000 },
-      "model": "Dyson V15 Detect",
+      "price": {
+        "min": 85500,
+        "max": 88000
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756623936.68b3f4400df97.webp",
-      "description": "Premium cordless vacuum with laser dust detection and LCD screen showing real-time particle count. Up to 60 minutes of powerful cleaning.",
-      "features": ["Laser dust detection", "LCD display screen", "Powerful suction", "Up to 60min runtime", "Multiple attachments", "HEPA filtration"]
+      "description": "Flagship Dyson V15 Detect with laser dust detection and LCD screen showing particle counts.",
+      "features": [
+        "Laser dust detection reveals hidden particles",
+        "LCD screen shows real-time particle count",
+        "Up to 60 minutes of runtime",
+        "Powerful Dyson Hyperdymium motor",
+        "HEPA filtration captures 99.99% of particles",
+        "Multiple cleaner head attachments included"
+      ],
+      "inStock": true
     },
     {
-      "id": 30,
+      "id": 96,
       "name": "Steam Mop with Attachments",
       "slug": "steam-mop-with-attachments",
       "category": "Smart Home Cleaning",
       "categorySlug": "smart-home-cleaning",
-      "price": { "min": 9990, "max": 9990 },
-      "model": "Steam Mop Pro",
+      "price": {
+        "min": 9990,
+        "max": 9990
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Feb-2026/1771053581.6990220d401f0.jpg",
-      "description": "Chemical-free steam mop that kills 99.9% of germs and bacteria. Includes multiple attachments for versatile cleaning across different surfaces.",
-      "features": ["Steam cleaning", "Multiple attachments", "Chemical-free", "Kills 99.9% germs", "Quick heat-up", "Versatile cleaning"]
+      "description": "Versatile steam mop with multiple attachments for chemical-free floor cleaning.",
+      "features": [
+        "High-temperature steam cleaning",
+        "Chemical-free sanitization",
+        "Multiple attachment heads included",
+        "Adjustable steam intensity",
+        "Heats up in under 30 seconds",
+        "Suitable for hard floors and tiles"
+      ],
+      "inStock": true
     },
     {
-      "id": 31,
+      "id": 97,
       "name": "Mini Handheld Cordless Vacuum",
       "slug": "mini-handheld-cordless-vacuum",
       "category": "Smart Home Cleaning",
       "categorySlug": "smart-home-cleaning",
-      "price": { "min": 4999, "max": 6500 },
-      "model": "Mini Handheld Vac",
+      "price": {
+        "min": 4999,
+        "max": 6500
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Feb-2026/1771308693.6994069586611.png",
-      "description": "Compact handheld cordless vacuum for quick cleanups in car and home. USB rechargeable with powerful suction in a portable design.",
-      "features": ["Compact handheld", "Cordless design", "USB rechargeable", "Car and home use", "Powerful suction", "Washable filter"]
+      "description": "Compact cordless handheld vacuum for quick cleanups of desks and car interiors.",
+      "features": [
+        "Compact handheld cordless design",
+        "Strong suction for quick pickups",
+        "USB-C rechargeable battery",
+        "Washable filter for easy maintenance",
+        "Includes crevice and brush nozzles"
+      ],
+      "inStock": true
     },
     {
-      "id": 32,
+      "id": 98,
+      "name": "Smart Sweeping Robot Vacuum",
+      "slug": "smart-sweeping-robot-vacuum",
+      "category": "Smart Home Cleaning",
+      "categorySlug": "smart-home-cleaning",
+      "price": {
+        "min": 1450,
+        "max": 1800
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Budget-friendly automatic sweeping robot for daily floor maintenance.",
+      "features": [
+        "Automatic random navigation sweeping",
+        "Slim design fits under furniture",
+        "One-button start operation",
+        "USB rechargeable battery",
+        "Anti-fall sensors for stairs"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 99,
+      "name": "Smart Indoor Mini Garden Hydroponics Kit",
+      "slug": "smart-indoor-mini-garden-hydroponics-kit",
+      "category": "Smart Home Appliances",
+      "categorySlug": "smart-home-appliances",
+      "price": {
+        "min": 5200,
+        "max": 5200
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Compact indoor hydroponics garden for growing herbs and greens year-round.",
+      "features": [
+        "Hydroponic growing system",
+        "Built-in LED grow lights",
+        "Automatic water circulation pump",
+        "Grows herbs, lettuce, and small plants",
+        "Compact countertop design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "Smart Indoor Garden Transparent Hydroponics Kit",
+      "slug": "smart-indoor-garden-transparent-hydroponics-kit",
+      "category": "Smart Home Appliances",
+      "categorySlug": "smart-home-appliances",
+      "price": {
+        "min": 5250,
+        "max": 5250
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Transparent indoor hydroponics garden showing root growth and water levels.",
+      "features": [
+        "Transparent container shows root growth",
+        "Smart LED grow light system",
+        "Water level indicator",
+        "Quiet water pump operation",
+        "Suitable for herbs and decorative plants",
+        "Modern aesthetic design"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 101,
+      "name": "Portable Camping Fan LED 20000mAh",
+      "slug": "portable-camping-fan-led-20000mah",
+      "category": "Smart Home Appliances",
+      "categorySlug": "smart-home-appliances",
+      "price": {
+        "min": 3600,
+        "max": 3600
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756624143.68b3f50f3e298.webp",
+      "description": "Portable rechargeable fan with LED light and 20000mAh battery for camping and outdoors.",
+      "features": [
+        "20000mAh high-capacity battery",
+        "Built-in LED light for illumination",
+        "Multiple fan speed settings",
+        "USB output for device charging",
+        "Compact and portable design",
+        "Runs up to 24 hours on low speed"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 102,
       "name": "Electric Warming Tray",
       "slug": "electric-warming-tray",
       "category": "Smart Home Appliances",
       "categorySlug": "smart-home-appliances",
-      "price": { "min": 3100, "max": 5600 },
-      "model": "Warming Tray",
+      "price": {
+        "min": 3100,
+        "max": 5600
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Feb-2026/1771914842.699d465a9b0e2.webp",
-      "description": "Electric warming tray to keep food at the perfect serving temperature. Available in multiple sizes with adjustable temperature control.",
-      "features": ["Keeps food warm", "Multiple sizes", "Adjustable temperature", "Stainless steel surface", "Non-slip feet", "Easy to clean"]
+      "description": "Electric food warming tray keeping dishes at perfect serving temperature.",
+      "features": [
+        "Even heat distribution across tray surface",
+        "Adjustable temperature control",
+        "Large surface fits multiple dishes",
+        "Non-stick easy-clean surface",
+        "Cool-touch handles for safety"
+      ],
+      "inStock": true
     },
     {
-      "id": 33,
+      "id": 103,
       "name": "Home Space Heater 1500W",
       "slug": "home-space-heater-1500w",
       "category": "Smart Home Appliances",
       "categorySlug": "smart-home-appliances",
-      "price": { "min": 4950, "max": 5500 },
-      "model": "Space Heater 1500W",
+      "price": {
+        "min": 4950,
+        "max": 5500
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Feb-2026/1770538900.69884794b4553.png",
-      "description": "Portable 1500W space heater with adjustable thermostat and safety tip-over protection. Efficient room heating for cold days.",
-      "features": ["1500W heating power", "Adjustable thermostat", "Safety tip-over protection", "Portable design", "Overheat protection", "Quiet operation"]
+      "description": "Powerful 1500W portable space heater with safety protections and adjustable thermostat.",
+      "features": [
+        "1500W heating power for medium rooms",
+        "Adjustable thermostat control",
+        "Tip-over and overheat protection",
+        "Quiet operation for bedroom use",
+        "Portable compact design",
+        "Multiple heat settings"
+      ],
+      "inStock": true
     },
     {
-      "id": 34,
-      "name": "Portable Camping Fan with LED - 20000mAh",
-      "slug": "portable-camping-fan-led-20000mah",
-      "category": "Smart Home Appliances",
-      "categorySlug": "smart-home-appliances",
-      "price": { "min": 3600, "max": 3600 },
-      "model": "Camping Fan 20000mAh",
-      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756624143.68b3f50f3e298.webp",
-      "description": "High-capacity 20000mAh portable fan with built-in LED light. Perfect for camping, outdoor activities, and power outages.",
-      "features": ["20000mAh battery", "LED light", "Multiple fan speeds", "USB charging output", "Portable design", "Long battery life"]
+      "id": 104,
+      "name": "8-inch Tuya Zigbee Gateway Panel",
+      "slug": "8-inch-tuya-zigbee-gateway-panel",
+      "category": "Smart Devices & Control Panels",
+      "categorySlug": "smart-devices-panels",
+      "price": {
+        "min": 33000,
+        "max": 33000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1748360345.6835dc99472e2.png",
+      "description": "Large 8-inch touchscreen control panel with built-in Tuya Zigbee gateway hub.",
+      "features": [
+        "8-inch HD touchscreen display",
+        "Built-in Zigbee gateway hub",
+        "Tuya ecosystem compatible",
+        "Controls lights, locks, sensors, and more",
+        "Wall-mount or tabletop placement",
+        "Scene and automation management"
+      ],
+      "inStock": true
     },
     {
-      "id": 35,
-      "name": "Ceiling Fan Lamp with Remote",
-      "slug": "ceiling-fan-lamp-with-remote",
-      "category": "Smart Home Appliances",
-      "categorySlug": "smart-home-appliances",
-      "price": { "min": 1890, "max": 1990 },
-      "model": "Ceiling Fan Lamp",
-      "image": "https://innovateit.com.bd/public/medies/Jun-2025/1750930543.685d146f1fbba.jpg",
-      "description": "Modern ceiling fan with integrated LED light and remote control. Multiple speed settings in a contemporary design.",
-      "features": ["Integrated LED light", "Remote control", "Multiple speed settings", "Modern design", "Energy efficient", "Easy installation"]
+      "id": 105,
+      "name": "6-inch WiFi Wall Amplifier Tuya Gateway",
+      "slug": "6-inch-wifi-wall-amplifier-tuya-gateway",
+      "category": "Smart Devices & Control Panels",
+      "categorySlug": "smart-devices-panels",
+      "price": {
+        "min": 30000,
+        "max": 30000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1748359911.6835dae709572.png",
+      "description": "6-inch wall-mounted panel combining WiFi amplifier with Tuya gateway functionality.",
+      "features": [
+        "6-inch touchscreen control panel",
+        "Built-in WiFi signal amplifier",
+        "Tuya gateway for smart device control",
+        "Background music and intercom function",
+        "Bluetooth audio streaming",
+        "In-wall installation design"
+      ],
+      "inStock": true
     },
     {
-      "id": 36,
+      "id": 106,
+      "name": "Smart Home Control Panel 3.5\" LCD Zigbee",
+      "slug": "smart-home-control-panel-3-5-lcd-zigbee",
+      "category": "Smart Devices & Control Panels",
+      "categorySlug": "smart-devices-panels",
+      "price": {
+        "min": 9900,
+        "max": 11000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/May-2025/1748251713.6834344130b8e.webp",
+      "description": "Compact 3.5-inch LCD smart home control panel with Zigbee connectivity.",
+      "features": [
+        "3.5-inch color LCD touchscreen",
+        "Zigbee protocol support",
+        "Scene control with one touch",
+        "Temperature and humidity display",
+        "Compact wall-mount design",
+        "Tuya app integration"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 107,
+      "name": "10-inch Tuya Touch Screen Display",
+      "slug": "10-inch-tuya-touch-screen-display",
+      "category": "Smart Devices & Control Panels",
+      "categorySlug": "smart-devices-panels",
+      "price": {
+        "min": 36000,
+        "max": 36000
+      },
+      "source": "InnovateIT",
+      "image": "https://innovateit.com.bd/public/medies/Aug-2025/1756623094.68b3f0f66323d.webp",
+      "description": "Premium 10-inch Tuya touchscreen display for whole-home smart control.",
+      "features": [
+        "Large 10-inch HD touchscreen",
+        "Tuya smart home ecosystem hub",
+        "Controls all connected smart devices",
+        "Built-in speaker and microphone",
+        "Video intercom capability",
+        "Dashboard for home status overview"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 108,
+      "name": "Tronsmart Bang 60W Party Speaker",
+      "slug": "tronsmart-bang-60w-party-speaker",
+      "category": "Smart Electronics & Gadgets",
+      "categorySlug": "smart-electronics-gadgets",
+      "price": {
+        "min": 10125,
+        "max": 10125
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Powerful 60W Tronsmart Bang Bluetooth party speaker with deep bass and light show.",
+      "features": [
+        "60W powerful audio output",
+        "Deep bass with dual passive radiators",
+        "LED light show synced to music",
+        "Bluetooth 5.0 wireless connectivity",
+        "IPX6 waterproof rating",
+        "Up to 15 hours battery life"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 109,
+      "name": "TronSmart Element T6 Max 60W Speaker",
+      "slug": "tronsmart-element-t6-max-60w-speaker",
+      "category": "Smart Electronics & Gadgets",
+      "categorySlug": "smart-electronics-gadgets",
+      "price": {
+        "min": 8625,
+        "max": 8625
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Premium TronSmart Element T6 Max with 360-degree surround sound.",
+      "features": [
+        "60W 360-degree surround sound",
+        "Deep bass with custom EQ modes",
+        "Bluetooth 5.0 with NFC pairing",
+        "20-hour battery life",
+        "IPX5 water-resistant",
+        "TWS stereo pairing support"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 110,
+      "name": "Wireless Keyboard and Mouse Combo",
+      "slug": "wireless-keyboard-and-mouse-combo",
+      "category": "Smart Electronics & Gadgets",
+      "categorySlug": "smart-electronics-gadgets",
+      "price": {
+        "min": 1500,
+        "max": 1500
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Wireless keyboard and mouse combo with reliable 2.4GHz connectivity.",
+      "features": [
+        "2.4GHz wireless connectivity",
+        "Single USB receiver for both devices",
+        "Full-size keyboard with multimedia keys",
+        "Ergonomic mouse with adjustable DPI",
+        "Long battery life on AA batteries"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 111,
+      "name": "Intelligent Smart Mug Temperature Control",
+      "slug": "intelligent-smart-mug-temperature-control",
+      "category": "Smart Electronics & Gadgets",
+      "categorySlug": "smart-electronics-gadgets",
+      "price": {
+        "min": 10206,
+        "max": 10206
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Temperature-controlled smart mug keeping beverages at perfect drinking temperature.",
+      "features": [
+        "Precise temperature control via app",
+        "Maintains beverage at set temperature",
+        "Wireless charging base included",
+        "LED temperature indicator",
+        "Stainless steel interior",
+        "Auto shut-off safety feature"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 112,
+      "name": "Rechargeable Electric Automatic Office Chair",
+      "slug": "rechargeable-electric-automatic-office-chair",
+      "category": "Ergonomic Smart Furniture",
+      "categorySlug": "ergonomic-smart-furniture",
+      "price": {
+        "min": 96000,
+        "max": 96000
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "Premium rechargeable electric office chair with motorized ergonomic adjustments.",
+      "features": [
+        "Electric motorized adjustments",
+        "Rechargeable battery powered",
+        "Automatic lumbar support positioning",
+        "Height and recline motor controls",
+        "Premium mesh and leather materials",
+        "Memory positions for multiple users"
+      ],
+      "inStock": false
+    },
+    {
+      "id": 113,
+      "name": "App Control Height Adjustable Table Double Leg",
+      "slug": "app-control-height-adjustable-table-double-leg",
+      "category": "Ergonomic Smart Furniture",
+      "categorySlug": "ergonomic-smart-furniture",
+      "price": {
+        "min": 58422,
+        "max": 58422
+      },
+      "source": "SystechSmart",
+      "image": "",
+      "description": "App-controlled height-adjustable standing desk with dual motor legs.",
+      "features": [
+        "Smartphone app for height control",
+        "Dual motor legs for stability",
+        "Memory presets for favorite heights",
+        "Anti-collision safety system",
+        "Quiet motor operation under 50dB",
+        "Supports up to 120kg load"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 114,
       "name": "Amazon Echo Dot 4th Gen",
       "slug": "amazon-echo-dot-4th-gen",
-      "category": "Voice Control & Bundles",
-      "categorySlug": "voice-control-bundles",
-      "price": { "min": 6900, "max": 6900 },
-      "model": "Echo Dot 4th Gen",
+      "category": "Smart Speaker & Hub",
+      "categorySlug": "smart-speaker-hub",
+      "price": {
+        "min": 6900,
+        "max": 6900
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/May-2025/1746878831.681f416f000d2.jpg",
-      "description": "Compact smart speaker with Alexa voice assistant. Control your entire smart home with voice commands, play music, and get answers.",
-      "features": ["Alexa voice assistant", "Smart home hub", "Music streaming", "Compact spherical design", "Voice calling", "Multi-room audio"]
+      "description": "Amazon Echo Dot 4th generation smart speaker with Alexa voice assistant.",
+      "features": [
+        "Alexa voice assistant built-in",
+        "Spherical acoustic design with front-firing speaker",
+        "Smart home hub for Zigbee devices",
+        "Stream music from Spotify, Amazon Music, and more",
+        "Multi-room audio support",
+        "Privacy controls with mic off button"
+      ],
+      "inStock": true
     },
     {
-      "id": 37,
-      "name": "SmartNest Ultra 2800 - Full Smart Home Package",
-      "slug": "smartnest-ultra-2800-full-package",
-      "category": "Voice Control & Bundles",
-      "categorySlug": "voice-control-bundles",
-      "price": { "min": 200000, "max": 200000 },
-      "model": "SmartNest Ultra 2800",
-      "image": "",
-      "description": "Complete smart home package covering up to 2800 sq ft. Includes all devices, professional installation, and configuration for a fully automated home.",
-      "features": ["Complete smart home package", "2800 sq ft coverage", "All devices included", "Professional installation", "Configuration included", "After-sales support"]
-    },
-    {
-      "id": 38,
-      "name": "Glass Border Wall Socket with USB/Type-C",
+      "id": 115,
+      "name": "Glass Border Wall Socket USB Type-C",
       "slug": "glass-border-wall-socket-usb-type-c",
-      "category": "Wall Components",
-      "categorySlug": "wall-components",
-      "price": { "min": 1200, "max": 1400 },
-      "model": "Glass USB Socket",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 1200,
+        "max": 1400
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/Jun-2025/1749656868.6849a52438c48.jpg",
-      "description": "Premium tempered glass wall socket with integrated USB and Type-C fast charging ports. Elegant design for modern interiors.",
-      "features": ["Tempered glass panel", "USB port", "Type-C port", "Fast charging", "Premium finish", "Easy installation"]
+      "description": "Stylish glass-bordered wall socket with USB Type-C port for modern charging.",
+      "features": [
+        "Premium glass border design",
+        "USB Type-C charging port",
+        "Standard power outlet included",
+        "Fast charging capability",
+        "Fits standard wall boxes"
+      ],
+      "inStock": true
     },
     {
-      "id": 39,
+      "id": 116,
       "name": "15A Wall Outlet",
       "slug": "15a-wall-outlet",
-      "category": "Wall Components",
-      "categorySlug": "wall-components",
-      "price": { "min": 990, "max": 990 },
-      "model": "15A Outlet",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 990,
+        "max": 990
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/May-2025/1748358813.6835d69d5862f.jpg",
-      "description": "Heavy-duty 15A wall outlet with safety shutters and durable construction. Reliable power delivery for high-draw appliances.",
-      "features": ["15A rated", "Safety shutters", "Durable construction", "High-draw compatible", "Fire-resistant material", "Easy installation"]
+      "description": "Heavy-duty 15A wall outlet for high-power appliance connections.",
+      "features": [
+        "15A high-current rated outlet",
+        "Durable flame-retardant construction",
+        "Safety shutters for child protection",
+        "Standard wall box mounting",
+        "Suitable for high-power appliances"
+      ],
+      "inStock": true
     },
     {
-      "id": 40,
-      "name": "Glass Plate Switches (1-3 Gang)",
-      "slug": "glass-plate-switches-1-3-gang",
-      "category": "Wall Components",
-      "categorySlug": "wall-components",
-      "price": { "min": 700, "max": 1150 },
-      "model": "Glass Plate Switch",
+      "id": 117,
+      "name": "1 Gang Glass Plate Switch",
+      "slug": "1-gang-glass-plate-switch",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 900,
+        "max": 900
+      },
+      "source": "InnovateIT",
       "image": "https://innovateit.com.bd/public/medies/May-2025/1748358922.6835d70af13ad.jpg",
-      "description": "Elegant tempered glass plate switches available in 1, 2, and 3 gang configurations. Touch-sensitive control with LED indicator for modern homes.",
-      "features": ["Tempered glass panel", "1 to 3 gang options", "Touch control", "LED indicator", "Modern design", "Durable construction"]
+      "description": "Single gang mechanical switch with premium tempered glass plate.",
+      "features": [
+        "Single gang rocker switch",
+        "Tempered glass front plate",
+        "Premium click feel mechanism",
+        "Standard wall box compatible",
+        "Available in multiple colors"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 118,
+      "name": "2 Gang Glass Plate Switch",
+      "slug": "2-gang-glass-plate-switch",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 1150,
+        "max": 1150
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Dual gang mechanical switch with elegant tempered glass plate.",
+      "features": [
+        "Two independent gang switches",
+        "Tempered glass panel finish",
+        "Reliable mechanical switching",
+        "Standard wall box installation",
+        "Modern minimalist appearance"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 119,
+      "name": "3 Gang Glass Plate Switch",
+      "slug": "3-gang-glass-plate-switch",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 700,
+        "max": 700
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Triple gang mechanical switch with tempered glass front plate.",
+      "features": [
+        "Three independent gang switches",
+        "Tempered glass plate design",
+        "Durable mechanical contacts",
+        "Standard wall box mounting",
+        "Sleek glass aesthetic"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 120,
+      "name": "Blank Cover Plate",
+      "slug": "blank-cover-plate",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 950,
+        "max": 950
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Blank cover plate for unused wall boxes matching the glass plate switch design range.",
+      "features": [
+        "Covers unused wall box openings",
+        "Matches glass plate switch series design",
+        "Clean finished appearance",
+        "Standard wall box compatible",
+        "Durable construction"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 121,
+      "name": "Internet Socket NSIS",
+      "slug": "internet-socket-nsis",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 800,
+        "max": 800
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "RJ45 internet wall socket in the glass plate design series.",
+      "features": [
+        "RJ45 ethernet wall socket",
+        "Cat5e/Cat6 network support",
+        "Glass plate series matching design",
+        "Standard wall box mounting",
+        "Reliable wired internet connection"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 122,
+      "name": "Intercom Telephone Socket NSTS",
+      "slug": "intercom-telephone-socket-nsts",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 780,
+        "max": 780
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Telephone and intercom wall socket in the glass plate series.",
+      "features": [
+        "RJ11 telephone socket",
+        "Compatible with intercom systems",
+        "Glass plate series design match",
+        "Standard wall box installation",
+        "Clean integrated appearance"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 123,
+      "name": "RF Remote Fan Dimmer",
+      "slug": "rf-remote-fan-dimmer",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 501,
+        "max": 501
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "RF remote-controlled fan dimmer for wireless ceiling fan speed control.",
+      "features": [
+        "RF wireless remote control",
+        "Multi-speed fan dimming",
+        "Compact receiver module",
+        "Easy retrofit installation",
+        "No WiFi or app required"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 124,
+      "name": "LED Power Supply 12-24V",
+      "slug": "led-power-supply-12-24v",
+      "category": "Wall Components & Accessories",
+      "categorySlug": "wall-components-accessories",
+      "price": {
+        "min": 2000,
+        "max": 2000
+      },
+      "source": "InnovateIT",
+      "image": "",
+      "description": "Versatile LED power supply supporting 12V to 24V output for LED strips and fixtures.",
+      "features": [
+        "12V to 24V adjustable output",
+        "Stable regulated power delivery",
+        "Suitable for LED strips and panels",
+        "Overload and short-circuit protection",
+        "Compact form factor for concealed mounting"
+      ],
+      "inStock": true
     }
   ]
 }
