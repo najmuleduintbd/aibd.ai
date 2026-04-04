@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Adnan Huda, CFA - Digital Business Card</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a0a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card-container {
+            width: 100%;
+            max-width: 420px;
+        }
+        .card {
+            background: linear-gradient(145deg, #111111, #1a1a2e);
+            border: 1px solid #2a2a3a;
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7, #ff2d95);
+        }
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        .credential {
+            font-size: 13px;
+            color: #00d4ff;
+            font-weight: 600;
+            letter-spacing: 3px;
+            margin-bottom: 6px;
+        }
+        .title {
+            font-size: 14px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 30px;
+        }
+        .divider {
+            width: 50px;
+            height: 2px;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            margin: 0 auto 25px;
+        }
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            text-decoration: none;
+            color: #ccc;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .info-row:hover {
+            background: rgba(255,255,255,0.08);
+            color: #fff;
+        }
+        .info-row .icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        .icon-phone { background: rgba(37, 211, 102, 0.15); color: #25d366; }
+        .icon-email { background: rgba(0, 212, 255, 0.15); color: #00d4ff; }
+        .icon-dhaka { background: rgba(123, 47, 247, 0.15); color: #7b2ff7; }
+        .icon-ny { background: rgba(255, 45, 149, 0.15); color: #ff2d95; }
+        .info-text {
+            text-align: left;
+        }
+        .info-label {
+            font-size: 10px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .projects-section {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #2a2a3a;
+        }
+        .projects-title {
+            font-size: 11px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        .project-chip {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid #2a2a3a;
+            border-radius: 10px;
+            padding: 10px 12px;
+            font-size: 11px;
+            color: #aaa;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .project-chip:hover {
+            border-color: #00d4ff;
+            color: #00d4ff;
+            background: rgba(0, 212, 255, 0.05);
+        }
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            margin-top: 25px;
+            padding: 14px;
+            background: #25d366;
+            color: #fff;
+            border: none;
+            border-radius: 14px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .whatsapp-btn:hover {
+            background: #20bd5a;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
+        }
+        .share-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            margin-top: 10px;
+            padding: 14px;
+            background: transparent;
+            color: #888;
+            border: 1px solid #2a2a3a;
+            border-radius: 14px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .share-btn:hover {
+            border-color: #7b2ff7;
+            color: #7b2ff7;
+        }
+        .badge {
+            margin-top: 20px;
+            font-size: 11px;
+            color: #444;
+        }
+        .badge a { color: #00d4ff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="avatar">SAH</div>
+            <div class="name">SYED ADNAN HUDA</div>
+            <div class="credential">CFA CHARTERHOLDER</div>
+            <div class="title">Founder</div>
+            <div class="divider"></div>
+
+            <a href="tel:+8801335126248" class="info-row">
+                <div class="icon icon-phone">&#9742;</div>
+                <div class="info-text">
+                    <div class="info-label">Phone</div>
+                    +880 1335 126248
+                </div>
+            </a>
+
+            <a href="mailto:syed@aibd.ai" class="info-row">
+                <div class="icon icon-email">&#9993;</div>
+                <div class="info-text">
+                    <div class="info-label">Email</div>
+                    syed@aibd.ai
+                </div>
+            </a>
+
+            <div class="info-row">
+                <div class="icon icon-dhaka">&#9962;</div>
+                <div class="info-text">
+                    <div class="info-label">Dhaka Office</div>
+                    264 Elephant Road, Dhaka-1205
+                </div>
+            </div>
+
+            <div class="info-row">
+                <div class="icon icon-ny">&#9992;</div>
+                <div class="info-text">
+                    <div class="info-label">New York Office</div>
+                    1 Morning Side Drive, NY-10025
+                </div>
+            </div>
+
+            <div class="projects-section">
+                <div class="projects-title">Active Projects</div>
+                <div class="projects-grid">
+                    <a href="https://eduintbd.ai" target="_blank" class="project-chip">EDUINTBD.AI</a>
+                    <a href="https://team.aibd.ai" target="_blank" class="project-chip">TEAM.AIBD.AI</a>
+                    <a href="#" class="project-chip">NASH BUILDING</a>
+                    <a href="https://thelegalempire.org" target="_blank" class="project-chip">LEGAL EMPIRE</a>
+                </div>
+            </div>
+
+            <a href="https://wa.me/?text=Hi%2C%20here%27s%20my%20business%20card%3A%0A%0A*SYED%20ADNAN%20HUDA%2C%20CFA*%0AFounder%0A%0A%F0%9F%93%A7%20syed%40aibd.ai%0A%F0%9F%93%B1%20%2B8801335126248%0A%F0%9F%8F%A2%20Dhaka%3A%20264%20Elephant%20Road%2C%20Dhaka-1205%0A%F0%9F%8F%A2%20New%20York%3A%201%20Morning%20Side%20Drive%2C%20NY-10025%0A%0AProjects%3A%20eduintbd.ai%20%7C%20team.aibd.ai%20%7C%20thelegalempire.org" class="whatsapp-btn" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Share via WhatsApp
+            </a>
+
+            <button class="share-btn" onclick="copyCard()">
+                &#128203; Copy Card Details
+            </button>
+
+            <div class="badge">Powered by <a href="https://aibd.ai">AIBD.AI</a></div>
+        </div>
+    </div>
+
+    <script>
+        function copyCard() {
+            const text = `SYED ADNAN HUDA, CFA\nFounder\n\nEmail: syed@aibd.ai\nPhone: +8801335126248\n\nDhaka Office: 264 Elephant Road, Dhaka-1205\nNew York Office: 1 Morning Side Drive, NY-10025\n\nProjects: eduintbd.ai | team.aibd.ai | Nash Building Management | thelegalempire.org`;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.querySelector('.share-btn');
+                btn.innerHTML = '&#10003; Copied!';
+                setTimeout(() => btn.innerHTML = '&#128203; Copy Card Details', 2000);
+            });
+        }
+    </script>
+</body>
+</html>
