@@ -8,9 +8,9 @@ import { CartProvider } from "@/context/CartContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AIBD.AI - Bangladesh's Smart Home Solutions Hub",
+  title: "Syed Adnan Huda, CFA | AIBD.AI - Global Consultancy & Holdings",
   description:
-    "Browse 100+ smart home products from top Bangladesh brands. Smart locks, lights, switches, security cameras, and more.",
+    "Your Global Consultant — bridging capital, technology, and opportunity across four continents. AI adoption, investment banking, and business transformation.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased bg-gray-950 text-gray-100`}>
+      <body className={`${inter.className} antialiased bg-black text-gray-100`}>
         <CartProvider>
           <Header />
           <main className="min-h-screen">{children}</main>
